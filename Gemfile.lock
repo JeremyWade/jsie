@@ -36,7 +36,6 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.4.0)
     arel (6.0.3)
     autoprefixer-rails (6.3.3.1)
       execjs
@@ -60,6 +59,11 @@ GEM
     execjs (2.7.0)
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
+    figaro (1.1.1)
+      thor (~> 0.14)
+    gibbon (2.2.3)
+      faraday (>= 0.9.1)
+      multi_json (>= 1.11.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
@@ -70,27 +74,16 @@ GEM
       rails-dom-testing (>= 1, < 3)
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
-    jquery-turbolinks (2.1.0)
-      railties (>= 3.1.0)
-      turbolinks
     json (1.8.3)
-    koala (2.2.0)
-      addressable
-      faraday
-      multi_json
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.4)
       mime-types (>= 1.16, < 4)
-    mengpaneel (0.0.2)
-      activesupport
-      mixpanel-ruby
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mini_portile2 (2.1.0)
     minitest (5.9.0)
-    mixpanel-ruby (2.2.0)
     multi_json (1.12.1)
     multipart-post (2.0.0)
     nokogiri (1.6.8)
@@ -174,19 +167,16 @@ DEPENDENCIES
   bootstrap-sass
   byebug
   coffee-rails (~> 4.1.0)
-  execjs (~> 2.6)
+  figaro
+  gibbon (~> 2.2)
   jbuilder (~> 2.0)
-  jquery-rails (~> 4.0, >= 4.0.5)
-  jquery-turbolinks
-  koala (~> 2.2)
-  mengpaneel
+  jquery-rails
   pg
   rails (= 4.2.1)
   rails_12factor
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring
-  sprockets (~> 3.5, >= 3.5.2)
   sqlite3
   turbolinks
   uglifier (>= 1.3.0)
