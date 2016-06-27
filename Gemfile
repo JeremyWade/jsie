@@ -16,6 +16,21 @@ gem 'rails_12factor', group: :production
 # Use bootstrap for improving the look and feel
 gem 'bootstrap-sass'
 
+# This gem was built for the use of 'Lightbox for Bootstrap 3' as Rails assets pipeline
+gem 'lightbox-bootstrap-rails'
+
+# A Ruby wrapper to integrate scrollReveal - A small library to create and maintain how elements fade in, triggered when they enter the viewport.
+gem "scrollreveal-rails"
+
+# 
+gem 'jquery-smooth-scroll-rails', :git => 'git@github.com:gretel/jquery-smooth-scroll-rails.git'
+
+# jQuery Countdown (gem version reflects assets version) packaged for standalone sprockets or rails
+gem 'jquery-countdown-rails', '~> 2.0', '>= 2.0.2'
+
+# Flexslider 2 by Woo Themes - https://github.com/woothemes/FlexSlider
+gem 'flexslider'
+
 # Use mailchimp API
 gem 'gibbon', '~> 2.2'
 
