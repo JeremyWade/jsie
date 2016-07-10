@@ -16,14 +16,15 @@ gem 'rails_12factor', group: :production
 # Use bootstrap for improving the look and feel
 gem 'bootstrap-sass'
 
+gem 'forest_liana'
+
 # This gem was built for the use of 'Lightbox for Bootstrap 3' as Rails assets pipeline
 gem 'lightbox-bootstrap-rails'
 
 # A Ruby wrapper to integrate scrollReveal - A small library to create and maintain how elements fade in, triggered when they enter the viewport.
 gem "scrollreveal-rails"
 
-# 
-gem 'jquery-smooth-scroll-rails', :git => 'git@github.com:gretel/jquery-smooth-scroll-rails.git'
+gem 'jquery-smooth-scroll-rails', '~> 0.0.5'
 
 # jQuery Countdown (gem version reflects assets version) packaged for standalone sprockets or rails
 gem 'jquery-countdown-rails', '~> 2.0', '>= 2.0.2'
@@ -74,4 +75,6 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+
+
 
