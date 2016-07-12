@@ -5,7 +5,7 @@
 					<div class="row utility-menu">
 						<div class="col-sm-12">
 							<div class="utility-inner clearfix">
-							<span class="alt-font"><i class="icon icon_pin"></i>Jindal Centre for Social Innovation & Entrepreneurship</span>
+							<a href="http://www.jsie.in/"><span class="alt-font"><i class="icon icon_pin"></i>Jindal Centre for Social Innovation & Entrepreneurship</span></a>
 		
 								<ul class="social-icons text-right">
 									<li>
@@ -17,7 +17,9 @@
 					
 					<div class="row">
 						<div class="col-sm-12 text-center">
-						<%= image_tag('jsielogo.png', class: 'logo logo-dark', alt: 'JSiE') %>
+					<%= link_to "http://www.jsie.in/" do %>
+    				<%= image_tag 'jsielogo.png', class: 'logo logo-dark', alt: 'JSiE'%>
+					<% end %>
 						</div>
 					</div>
 				

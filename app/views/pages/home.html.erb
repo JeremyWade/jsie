@@ -11,7 +11,7 @@
 							<br>
 							<h1 class="text-white space-bottom-medium"><br>A Social Innovation Lab <br> in North India</h1>
 							<%= link_to "Learn", learn_path, :class => "btn btn-primary btn-white" %>
-							<%= link_to "Startup", "http://startupacademy.jsie.in/", :class => "btn btn-primary btn-filled" %>
+							<%= link_to "Startup", "http://startupacademy.jsie.in/", :class => "btn btn-primary btn-filledhome" %>
 						</div>
 					</div>
 				</div>
@@ -27,22 +27,17 @@
 						<div class="col-sm-4 col-xs-12 pull-right text-right">
 							<ul class="social-icons">
 								<li>
-									<a href="#">
-										<i class="icon social_twitter"></i>
-									</a>
-								</li>
-								
+								<%= link_to "<i class=\"iicon social_facebook\"></i>".html_safe, "https://www.facebook.com/JSiEin/"-%>
+							    </li>
 								<li>
-									<a href="#">
-										<i class="icon social_facebook"></i>
-									</a>
+								<%= link_to "<i class=\"iicon social_twitter\"></i>".html_safe, "https://twitter.com/jsiein"-%>
 								</li>
-								
 								<li>
-									<a href="#">
-										<i class="icon social_dribbble"></i>
-									</a>
-								</li>
+								<%= link_to "<i class=\"iicon social_linkedin\"></i>".html_safe, "https://www.linkedin.com/company/jindal-centre-for-social-innovation"-%>
+								   </li>
+									<li>
+								<%= link_to "<i class=\"iicon social_instagram\"></i>".html_safe, "https://www.instagram.com/jsiein/"-%>
+									</li>
 							</ul>
 						</div>
 					</div>
