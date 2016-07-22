@@ -108,10 +108,10 @@
 
 #team .team-item .team-link .team-hover {
     position: absolute;
-    width: 90%;
+    width: 93%;
     height: 100%;
     opacity: 0;
-    background: rgba(28,29,28,.9);
+    background: rgba(255,255,255,.6);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -377,3 +377,12 @@
     clear:both;
     width:100%;
 }
+.about-bar {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+  line-height: 0;
+  }
