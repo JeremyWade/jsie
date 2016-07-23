@@ -1,5 +1,13 @@
 <%= render 'layouts/nav' %>	
 <%= render 'layouts/researchheader' %>
+<% content_for :head do %>
+  <meta property="og:url"           content="http://www.jsie.in/research/" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Social Impact Research" />
+  <meta property="og:description"   content="SiE: Social Innovation Lab & Startup Academy in North India" />
+  <meta property="og:image"         content="<%=asset_url('jsieface.jpg') %>" />
+  <meta property="fb:app_id"        content="1535582636740127" />
+  <% end %>
 	
 		<header class="title">
 					<div class="background-image-holder">
@@ -20,7 +28,7 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-10 col-sm-offset-1">
-							<p class="lead">To create a standardized psychometric test to assess the “social entrepreneur quotient”. The Social Entrepreneur Quotient(SEQ) test aims to predict the likelihood that someone can become a successful social entrepreneur regardless of their idea, locale, demographic.</p>
+							<p class="lead">To create a standardized psychometric test to assess the “social entrepreneur quotient”. The Social Entrepreneur Quotient (SEQ) test aims to predict the likelihood that someone can become a successful social entrepreneur regardless of their idea, locale, demographic.</p>
 						</div>
 					</div>
 					
@@ -58,7 +66,7 @@
 						<li class="clearfix active">
 							<div class="row">
 								<div class="col-sm-12 text-center">
-									<h3>A literature review of studies conducted in the field of social entrepreneurship in the last 30 years showed us that five psychological pillars were crucial to the performance of a social entrepreneur. Those five identified are motivation, creativity, risk taking, openness to change and ethical fiber. </h3>
+									<h3>A literature review of studies conducted in the field of social entrepreneurship in the last 30 years indicated that five psychological pillars were most relevant to the performance of a social entrepreneur. Those five identified are motivation, creativity, risk taking, openness to change and ethical fiber. </h3>
 								</div>
 							</div>
 						</li>
@@ -73,14 +81,14 @@
 							<li class="clearfix">
 							<div class="row">
 								<div class="col-sm-12 text-center">
-									<p><h3>This stage involved validification process. We had interviews with experts on the relevance and the scope of the psychometric scale. The sample size for the interview in this stage was fifty five. The sample included seven individuals who had experience working with social entrepreneurs, thirty-five students from O.P. Jindal Global University and twelve academicians who posses knowledge and experience in the social entrepreneurship.</h3></p>
+									<p><h3>After the validification process, we did not find justifiation to revise the five psychological contructs identified in the literature review. We did find that many items in the scale were irrelevant, confusing or an unnecessary repetition. Based on the results, we reduced the list to fifty two from the original ninety one items to form a new scale. All the pillars and sub pillars remained same in the new scale. We have also revised the likert scale. Based on expert advice, some demographic factors such as entrepreneurship experience and family history were also included.</h3></p>
 								</div>
 							</div>
 						</li>
 							<li class="clearfix">
 							<div class="row">
 								<div class="col-sm-12 text-center">
-									<p><h3>Social entrepreneurs introducing major structural changes to society are asking people to change how they do things. If people do not trust the entrepreneur, the likelihood of success is significantly reduced. Sub pillars are: a) Conscientiousness b) Accountability c) Transparency d) Integrity and Trustworthiness e) Diligence</h3></p>
+									<p><h3>In this phase, we uploaded the new scale in Typeform, a online survey software tool, and will use this tool for new data collection. The aim of this stage was to filter out applicants prior to the more robust selection process. This assessment tool will be circulated among three target audience i.e. a control group and two experimental groups. Control Group will consist of individuals unrelated to social entrepreneurship and the experimental groups will consist of aspiring social entrepreneurs and successful social entrepreneurs.<h3></p>
 								</div>
 							</div>
 						</li>
@@ -140,7 +148,7 @@
 				</div>
 			</section>
 		</div>
-
+<script> mixpanel.track("research");</script>
 		
 
 				

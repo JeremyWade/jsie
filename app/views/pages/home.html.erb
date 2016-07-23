@@ -1,4 +1,12 @@
 <%= render 'layouts/nav' %>	
+ <% content_for :head do %>
+  <meta property="og:url"           content="http://www.jsie.in/" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="JSiE: Social Innovation Lab & Startup Academy in North India" />
+  <meta property="og:description"   content="Jindal Centre for Social Innovation & Entreprepreneurship, O.P. Jindal GLobal University" />
+  <meta property="og:image"         content="<%=asset_url('jsieface.jpg') %>" />
+  <meta property="fb:app_id"        content="1535582636740127" />
+  <% end %>
 		<div class="main-container">
 			<header class="page-header">
 				<div class="background-image-holder parallax-background">
@@ -44,7 +52,7 @@
 				</div>
 			</section>
 		</div>
-				
+	    <script> mixpanel.track("Viewed JSiE Landing Page");</script>			
 				
 	
 				

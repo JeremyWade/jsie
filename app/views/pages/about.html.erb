@@ -1,5 +1,13 @@
 <%= render 'layouts/nav' %>
 <%= render 'layouts/aboutheader' %>	
+ <% content_for :head do %>
+  <meta property="og:url"           content="http://www.jsie.in/about/" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Jindal Centre for Social Innovation & Entrepreneurship" />
+  <meta property="og:description"   content="Social Innovation Lab & Startup Academy in North India" />
+  <meta property="og:image"         content="<%=asset_url('jsieface.jpg') %>" />
+  <meta property="fb:app_id"        content="1535582636740127" />
+  <% end %>
 				<header class="header-icons overlay">
 					<div class="background-image-holder parallax-background">
 					</div>
@@ -45,7 +53,7 @@
 						<div class="col-sm-5">
 							<h1>Vision</h1>
 							<p class="lead">
-								The Jindal Centre for Social Innovation & Entrepreneurship (JSiE) aims to strengthen the capacity of individuals and organizations to develop<b> innovative solutions</b> to complex <b>social and environmental problems. </b>JSiE’s mission is to help build a <b>social enterprise ecosystem</b> and catalyze <b>inclusive growth and development</b> across India. The social innovation lab designs<b> innovation challenges</b>, develops new<b> curriculum</b> and engages in <b>social problem-centric research</b> alongside industry and community partners. The startup academy supports aspiring entrepreneurs in the generation of new sustainable ventures by providing pre-incubation and skill development services.
+								The Jindal Centre for Social Innovation & Entrepreneurship (JSiE) aims to strengthen the capacity of individuals and organizations to develop<b> innovative solutions</b> to complex <b>social and environmental problems. </b>JSiE’s mission is to help build a <b>social enterprise ecosystem</b> and catalyze <b>inclusive growth and development</b> across India. The social innovation lab designs<b> innovation challenges</b>, develops new<b> curriculum</b> and engages in <b>social problem-centric research</b> alongside industry and community partners. The startup academy supports aspiring entrepreneurs in the generation of new sustainable ventures by providing pre-incubation and skill development training.
 							</p>
 				
 						</div>
@@ -139,7 +147,7 @@
 								<div class="hover-state">
 									<div class="align-vertical">
 										<h3 class="text-white"><strong>Blockchain Impact Initiative</strong></h3>
-								<%= link_to "See Project", "https://www.futurelearn.com/programs/social-enterprise", :target => "_blank", :class => "btn btn-primary btn-white" %>
+								<%= link_to "See More", "https://www.futurelearn.com/programs/social-enterprise", :target => "_blank", :class => "btn btn-primary btn-white" %>
 									</div>
 								</div>
 							</div>
@@ -435,17 +443,10 @@
                             <!-- Project Details Go Here -->
                             <h2>Isabel Salovaara </h2>
                             <p class="item-intro text-muted"></p>
-                            <ul class="list-inline social-buttons">
-                            <li><a href="https://twitter.com/ashishbharadwaj" target="_blank"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="https://in.linkedin.com/in/ashishbharadwaj1" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            </ul>
-                            <p> Ms. Isabel Salovaara graduated summa cum laude in history from Harvard University in 2012. During her undergraduate studies, Ms. Salovaara spent a summer volunteering in anganwadis (government-run daycare centers) in Himachal Pradesh and a semester studying in Delhi.Her college coursework included studies of Hindi-Urdu, South Asian history, and socioeconomic development in India.
+                            <p> Ms. Isabel Salovaara is an Assistant Director of the Jindal Centre for Social Innovation and Entrepreneurship and Senior Research Associate at the Jindal School of Liberal Arts and Humanities. She graduated summa cum laude in history from Harvard University in 2012. During her undergraduate studies, Ms. Salovaara spent a summer volunteering in anganwadis (government-run daycare centers) in Himachal Pradesh and a semester studying in Delhi.Her college coursework included studies of Hindi-Urdu, South Asian history, and socioeconomic development in India.
 
                             After completing her degree, Ms. Salovaara returned to India to study Hindi at the American Institute of Indian Studies in Jaipur through the U.S. State Department’s Critical Language Scholarship. Supported by a Harvard Pforzheimer Fellowship, she then worked for six months with a nonprofit organization in Delhi dedicated to implementing multi-faceted interventions to improve the lives of slum residents. Recently Ms. Salovaara worked in the education field in India, advising Indian high school students on the application process and academic transition to U.S. universities. 
-
-                           </p>
+                           	</p>
                             <p> 
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
                         </div>
@@ -470,13 +471,7 @@
                             <!-- Project Details Go Here -->
                             <h2>Anirudh Agrawal</h2>
                             <p class="item-intro text-muted"></p>
-                            <ul class="list-inline social-buttons">
-                            <li><a href="https://twitter.com/ashishbharadwaj" target="_blank"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="https://in.linkedin.com/in/ashishbharadwaj1" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            </ul>
-                            <p> Anirudh Agrawal is a PhD Fellow in Social Entrepreneurship at Copenhagen Business School. He is researching on the institutional theory framework to reflect on debates in social entrepreneurship and social innovation. He is teaching short modules on social entrepreneurship, innovation in social media, social media management and business in emerging markets. He has a background in mechanical engineering, social entrepreneurship and consulting in emerging markets. </p>
+                            <p> Anirudh Agrawal is an Assistant Professor, Jindal Global Business School. Previously, he was a PhD Fellow in Social Entrepreneurship at Copenhagen Business School researching on the institutional theory framework to reflect on debates in social entrepreneurship and social innovation. He is teaching short modules on social entrepreneurship, innovation in social media, social media management and business in emerging markets. He has a background in mechanical engineering, social entrepreneurship and consulting in emerging markets. </p>
                             <p> 
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
                         </div>
@@ -485,4 +480,4 @@
             </div>
         </div>
     </div>	
-				
+		<script> mixpanel.track("About");</script>		
