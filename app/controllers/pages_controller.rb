@@ -9,4 +9,6 @@ class PagesController < ApplicationController
   end
   def research
   end
+  def lec
+  end
 end
