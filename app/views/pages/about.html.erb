@@ -1,5 +1,4 @@
 <%= render 'layouts/nav' %>
-<%= render 'layouts/aboutheader' %>	
  <% content_for :head do %>
   <meta property="og:url"           content="http://www.jsie.in/about/" />
   <meta property="og:type"          content="website" />
@@ -63,111 +62,6 @@
 						</div>
 					</div>
 				</div>
-			</section>
-		</div>
-		<section id="initiatives" class="no-pad-bottom projects-gallery">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
-							<h1>Our Initiatives</h1>
-						</div>
-					</div>
-					
-				</div>
-				
-				<div class="projects-wrapper clearfix">
-					<div class="container">
-						<div class="row">
-							<ul class="filters">
-								<li data-filter="*" class="active"><span>All</span></li>
-								<li data-filter=".courses"><span>Courses</span></li>
-								<li data-filter=".startups"><span>Startup Incubation</span></li>
-								<li data-filter=".research"><span>Research</span></li>
-								<li data-filter=".innovation"><span>Innovation Challenges</span></li>
-							</ul>
-						</div>
-					</div>
-					
-					<div class="container">
-						<div class="projects-container column-projects">
-					
-							<div class="col-md-4 col-sm-6 project courses image-holder">
-								<div class="background-image-holder">
-								<%= image_tag('futurelearn.jpg', class: 'background-image', alt: 'FutureLearn Social Enterprise Program') %>
-								</div>
-								<div class="hover-state">
-									<div class="align-vertical">
-										<h3 class="text-white"><strong>FutureLearn </strong>Social Enterprise Program</h3>
-										<%= link_to "See More", "https://www.futurelearn.com/programs/social-enterprise", :target => "_blank", :class => "btn btn-primary btn-white" %>
-									</div>
-								</div>
-							</div>
-							
-							<div class="col-md-4 col-sm-6 project startups image-holder">
-								<div class="background-image-holder">
-								<%= image_tag('tedi2.jpg', class: 'background-image', alt: 'Tibetan Entrepreneurship Development') %>
-								</div>
-								<div class="hover-state">
-									<div class="align-vertical">
-										<h3 class="text-white"><strong>Tibetan Entrepreneurship Development</strong><br> Incubation Partnership</h3>
-									<%= link_to "See More", "http://jsie.in/img/TEDJSiE.pdf", :target => "_blank", :class => "btn btn-primary btn-white" %>
-									</div>
-								</div>
-							</div>
-							
-							<div class="col-md-4 col-sm-6 project innovation image-holder">
-								<div class="background-image-holder">
-									<%= image_tag('isic.jpg', class: 'background-image', alt: 'International Social Innovation Challenges') %>
-					
-								</div>
-								<div class="hover-state">
-									<div class="align-vertical">
-										<h3 class="text-white"><b>International Social Innovation Challenge</b><br> 2015</h3>
-									<%= link_to "See More", "http://isic15.jsie.in/", :target => "_blank", :class => "btn btn-primary btn-white" %>
-									</div>
-								</div>
-							</div>
-							
-							<div class="col-md-4 col-sm-6 project startups image-holder">
-								<div class="background-image-holder">
-									<%= image_tag('startup.jpg', class: 'background-image', alt: 'Startup Academy') %>
-								</div>
-								<div class="hover-state">
-									<div class="align-vertical">
-										<h3 class="text-white"><strong>Startup Academy</strong><br></h3>
-								<%= link_to "See More", "http://startupacademy.jsie.in/", :target => "_blank", :class => "btn btn-primary btn-white" %>
-									</div>
-								</div>
-							</div>
-							
-							<div class="col-md-4 col-sm-6 project research image-holder">
-								<div class="background-image-holder">
-								<%= image_tag('finance.jpg', class: 'background-image', alt: 'Blockchain Impact') %>
-								</div>
-								<div class="hover-state">
-									<div class="align-vertical">
-										<h3 class="text-white"><strong>Blockchain Impact Initiative</strong></h3>
-								<%= link_to "See More", "http://blockchain.jsie.in/", :target => "_blank", :class => "btn btn-primary btn-white" %>
-									</div>
-								</div>
-							</div>
-							
-							<div class="col-md-4 col-sm-6 project startups image-holder">
-								<div class="background-image-holder">
-								<%= image_tag('lec.jpg', class: 'background-image', alt: 'Legal Entrepreneurship Cell') %>
-								</div>
-								<div class="hover-state">
-									<div class="align-vertical">
-										<h3 class="text-white"><strong>Legal Entrepreneurship Cell</strong></h3>
-								<%= link_to "See More", "http://lec.jsie.in/", :target => "_blank", :class => "btn btn-primary btn-white" %>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-				
 			</section>
 		</div>
 	<!-- Team Section -->
