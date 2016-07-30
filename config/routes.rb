@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get "learn" => "pages#learn"
   get "startup" => "pages#startup"
   get "lec" => "pages#lec"
+  get "blog" => "pages#blog"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

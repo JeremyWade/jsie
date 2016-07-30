@@ -11,4 +11,6 @@ class PagesController < ApplicationController
   end
   def lec
   end
+  def blog
+  end
 end
