@@ -1,4 +1,12 @@
 <%= render 'layouts/nav' %>	
+<% content_for :head do %>
+  <meta property="og:url"           content="http://www.jsie.in/" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="JSiE: A Social Innovation Lab in North India" />
+  <meta property="og:description"   content="The Jindal Centre for Social Innovation & Entrepreneurship at O.P. Jindal Global University" />
+  <meta property="og:image"         content="<%=asset_url('jsieface.jpg') %>" />
+  <meta property="fb:app_id"        content="1535582636740127" />
+  <% end %>
  <div class="spacer-50"></div>
 <!-- MAIN SLIDER -->
 <!-- Change the width and height values to suit you best -->
