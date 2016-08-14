@@ -1,4 +1,5 @@
-<%= render 'layouts/nav' %>	
+<%= render 'layouts/nav' %>
+<%= render 'layouts/startup' %>	
 <% content_for :head do %>
   <meta property="og:url"           content="http://www.jsie.in/" />
   <meta property="og:type"          content="website" />
@@ -7,9 +8,47 @@
   <meta property="og:image"         content="<%=asset_url('jsieface.jpg') %>" />
   <meta property="fb:app_id"        content="1535582636740127" />
   <% end %>
- <div class="spacer-50"></div>
-<!-- MAIN SLIDER -->
-<!-- Change the width and height values to suit you best -->
+		<section class="no-pad clearfix">
+				
+				<div class="col-md-6 col-sm-12 no-pad">
+				
+					<div class="feature-box">
+					
+						<div class="background-image-holder overlay">
+						<%= image_tag('tibetan5.jpg', class: 'background-image', alt: 'JSiE') %>
+						</div>
+						
+						<div class="inner">
+							<span class="alt-font text-white">Tibetan Entrepreneurship Development</span>
+							<h1 class="text-white">Incubation Partner</h1>
+							<p class="text-white">JSiE has completed two pre-incubation cycles supporting Tibetan entrepreneurs living in India. The program provides business model generation and legal support from the JSiE team and faculty members of OP Jindal Global University.&nbsp;</p>
+							<a href="http://www.moneycontrol.com/news/sme/tibetan-entrepreneurs-launch-startups-to-retain-cultureindia_7059901.html" target="_blank" class="btn btn-primary btn-white">Tell Me More</a>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="col-md-6 col-sm-12 no-pad">
+				
+					<div class="feature-box">
+					
+						<div class="background-image-holder overlay">
+						<%= image_tag('ubi.jpg', class: 'background-image', alt: 'JSiE') %>
+						</div>
+						
+						<div class="inner">
+							<span class="alt-font text-white">Incubator With a Social MISSION</span>
+							<h1 class="text-white">Startups + Social Impact</h1>
+							<p class="text-white">
+								JSiE is a member of UBI Global Incubation Impact &amp; Network - a network of 400 data driven, entrepreneurial centric, incubation programs from over 70 countries, in partnership with Cisco Corporate Affairs.  
+							</p>
+							<a href="http://ubi-global.com/" class="btn btn-primary btn-white">Tell Me More</a>
+						</div>
+					</div>
+				</div>
+				
+			</section>
+			
 	<header class="header-icons overlay">
 					<div class="background-image-holder parallax-background">
 					</div>
@@ -18,13 +57,17 @@
 							<div class="col-sm-12 col-md-10 col-md-offset-1 text-center">
 						<%= image_tag('startupacademy1.png', alt: 'JSiE') %>
 						</div>
+						 <div class="spacer-50"></div>
 							<div class="col-sm-12 col-md-10 col-md-offset-1 text-center">
-								<h2 class="text-white">Ready to launch your startup?</h2>
+							<div class="spacer-50"></div>
+								<h2> Apply now for the batch 3 of Startup Academy (SA-3) students <br> of OP Jindal Global University
 								 <div class="spacer-30"></div>
-								<%= link_to "Apply Now", "https://jsie.typeform.com/to/sxJ86x", :class => "btn btn-primary btn-filled" %>
+								<%= link_to "Apply Now", "https://jsie.typeform.com/to/uEdm99", :class => "btn btn-primary btn-filled" %>
 							</div>
 						</div>
 						</div>
 						</div>
 </div>
+<%= render 'layouts/startupheader' %>
+ <%= render 'layouts/footer' %>
 	<script> mixpanel.track("Startup");</script>
