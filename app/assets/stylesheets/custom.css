@@ -407,5 +407,11 @@ nav.shift ul li a:hover:after {
   visibility: visible;
   height: 100%;
 }
-
+.alt-font2 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: .75rem;
+  text-transform: uppercase;
+  color: #fa7d00;
+}
 
