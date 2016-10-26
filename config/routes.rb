@@ -7,8 +7,7 @@ Rails.application.routes.draw do
   get "startup" => "pages#startup"
   get "lec" => "pages#lec"
   get "blog" => "pages#blog"
-  get '/research/:id', to: 'research#show'
-  get '/research/:id', to: 'research#show', as: 'seq'
+  get "research/seq" => "pages#seq"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
