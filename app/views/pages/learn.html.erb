@@ -1,5 +1,4 @@
 <%= render 'layouts/nav' %>	
-<%= render 'layouts/learnheader' %>
  <% content_for :head do %>
   <meta property="og:url"           content="http://www.jsie.in/" />
   <meta property="og:type"          content="website" />
@@ -8,15 +7,32 @@
   <meta property="og:image"         content="<%=asset_url('jsieface.jpg') %>" />
   <meta property="fb:app_id"        content="1535582636740127" />
   <% end %>
+  		<header class="page-header">
+				<div class="background-image-holder parallax-background">
+					<%= image_tag('jsie.jpg', class: 'background-image', alt: 'JSiE') %>
+				</div>
+				
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<br>
+							<h1 class="text-white space-bottom-medium"><br>FutureLearn Social Enterprise Program</h1>
+							<%= link_to "Try it for Free","https://www.futurelearn.com/programs/social-enterprise", :class => "btn btn-primary btn-filledhome" %>
+						</div>
+					</div>
+				</div>
+			</header>
+		</div>
 			
 			<section class="video-inline">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6 col-sm-12 center-text">
-							<h1 class="space-bottom-medium">Social Enterprise: Business Doing Good </h1>
+							<h1 class="space-bottom-medium">Business Doing Good </h1>
 							<p class="lead space-bottom-medium">Learn about the diverse world of social enterprise through this free online course. This course is a valuable foundation in social enterprise and, is a must for anyone who wants to understand more about social enterprise and its relation to sustainable development. In this course, you will learn how to evaluate social enterprise in the context of global and local problems.</p>
+							<h5 class="space-bottom-medium">Starts February 6th, 2017</h5>
 							<%= link_to "Learn More", "https://www.futurelearn.com/courses/social-enterprise-business-doing-good", :class => "btn btn-primary btn-grey" %>
-							<%= link_to "JOIN NOW", "https://www.futurelearn.com/programs/social-enterprise", :class => "btn btn-primary btn-filled" %>
+							<%= link_to "Try it for Free", "https://www.futurelearn.com/programs/social-enterprise", :class => "btn btn-primary btn-filled" %>
 						</div>
 						<div class="col-md-6 col-sm-12">
 							<div class="media-holder">
@@ -26,7 +42,42 @@
 					</div>
 				</div>
 			</section>
-			
+			<section class="video-inline">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-12">
+							<div class="media-holder">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/hkqlnsmji98" frameborder="0" allowfullscreen></iframe>
+							</div>
+						
+					</div>
+						<div class="col-md-6 col-sm-12 center-text">
+							<h1 class="space-bottom-medium">Turning Ideas into Action </h1>
+							<p class="lead space-bottom-medium">How can you turn a social enterprise idea into action? In this course, you will identify the problem your idea is trying to solve, design your social enterprise venture model and prepare to take it to market.</p>
+							<%= link_to "Learn More", "https://www.futurelearn.com/courses/social-enterprise-idea-action", :class => "btn btn-primary btn-grey" %>
+							<%= link_to "Try it for Free", "https://www.futurelearn.com/programs/social-enterprise", :class => "btn btn-primary btn-filled" %>
+						</div>
+				</div>
+			</section>
+
+			<section class="video-inline">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-12 center-text">
+							<h1 class="space-bottom-medium">Growing a Sustainable Business</h1>
+							<p class="lead space-bottom-medium">Is your social enterprise sustainable? Is it scalable? This course helps you evaluate your model and develop a plan to take it to the next level.</p>
+							<%= link_to "Learn More", "https://www.futurelearn.com/courses/social-enterprise-sustainable-business", :class => "btn btn-primary btn-grey" %>
+							<%= link_to "Try it for Free", "https://www.futurelearn.com/programs/social-enterprise", :class => "btn btn-primary btn-filled" %>
+						</div>
+						<div class="col-md-6 col-sm-12">
+							<div class="media-holder">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/IsFcYTVm3kg" frameborder="0" allowfullscreen></iframe>
+							</div>
+						
+					</div>
+				</div>
+			</section>
+
 			<header class="signup"> 
 					<div class="background-image-holder parallax-background">
 						
