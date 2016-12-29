@@ -7,96 +7,132 @@
   <meta property="og:image"         content="<%=asset_url('jsieface.jpg') %>" />
   <meta property="fb:app_id"        content="1535582636740127" />
   <% end %>
-	                               
-        <div class="main-container">
-        <header class="product-action">
-        <div class="container">
-        <div class="row">
-        <div class="col-sm-12 col-md-offset-1 text-center col-md-10">                           
-        <h2 class="text-white">Research</h2>
-         <p class="text-white">
-        At JSiE, our research examines the spectrum of factors, from the individual entrepreneur to the broader ecosystem, that enable social entrepreneurship and innovation to flourish. We seek to develop holistic strategies and recommendations for fostering social innovation in North India.</p>                                                              
-        </div>                                                                              
+	           <header class="page-header">
+                <div class="background-image-holder parallax-background">
+                    <%= image_tag('researchhead.jpg', class: 'background-image', alt: 'JSiE') %>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <br>
+                            <h1 class="text-white space-bottom-medium"><br>Turning Research into Practice</h1>
+                            <%= link_to "Join us", "https://jsie.typeform.com/to/uEdm99", :class => "btn btn-primary btn-filledhome" %>
+                        </div>
+                    </div>
+                </div>
+            </header> 
+                   <section class="feature-selector">
+                <div class="container">
+                    <ul class="selector-content">
+                        <li class="clearfix active">
+                            <div class="row">
+                                <div class="col-sm-12 text-center">
+                                    <h1>Social Impact Research at JSiE</h1>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <p class="lead">
+                                        As a social innovation hub within O.P. Jindal Global University, JSiE  seeks to foster conversation between academics, social entrepreneurs and community leaders. We collaborate with academic researchers to explore applications of their research in the social innovation field.
+                                    </p>    
+                                </div>
+                            
+                                <div class="col-sm-6">
+                                    <p class="lead">
+                                        Our research examines the spectrum of factors, from the individual entrepreneur to the broader ecosystem, that enable social entrepreneurship and innovation to flourish. We seek to develop holistic strategies and recommendations for fostering social innovation in North India.
+                                    </p>    
+                                </div>
+                            </div>
+                        </li>
+                </div>
+            </section>
+                    <section class="strip bg-secondary-2">
+                <div class="container">
+                    <div class="row clearfix">
+                        <div class="col-sm-6 col-xs-12 pull-left">
+                            <h3 class="text-white"><strong>Join us.</strong> Turning Research into Practice</h3>
+                        </div>
+                        
+                        <div class="col-sm-4 col-xs-12 pull-right text-right">
+                            <%= link_to "Join Us", "https://jsie.typeform.com/to/uEdm99", :class => "btn btn-primary btn-white" %>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-        </div>
-        </header>
-    <section class="duplicatable-content milestones">
-                                               
-    <div class="container">
-    <div class="row">
-    <div class="col-sm-6 text-center col-md-4">
-    <div class="feature feature-icon-large">
-        <i class="icon icon_profile"></i>
-        <div class="pin-body"></div>
-        <div class="pin-head"></div>
-        <h5>Innovators</h5>                                                                 
-        </div>
-        </div>
-        <div class="col-sm-6 text-center col-md-4">
-        <div class="feature feature-icon-large">
-        <i class="icon icon_genius"></i>
-        <div class="pin-body"></div>
-        <div class="pin-head"></div>
-        <h5>Networks</h5>                                                    
-        </div>
-        </div>
-        <div class="col-sm-6 text-center col-md-4"> 
-        <div class="feature feature-icon-large">
-        <i class="icon icon_globe_alt"></i>
-        <div class="pin-body"></div>
-        <div class="pin-head"></div>
-        <h5>Ecosystems</h5>                                                                       
-        </div>
-        </div>                                          
-        </div>
-        </div>
-        </section>
+        <section class="duplicatable-content milestones">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 text-center">
+                            <div class="feature feature-icon-large">
+                                <i class="icon icon_profile"></i>
+                                <div class="pin-body"></div>
+                                <div class="pin-head"></div>
+                                <h5>Innovators</h5>
+                                <span> What makes a changemaker? How do individual characteristics such as age, gender, and personality influence who becomes a social entrepreneur? To what extent are the characteristics of a social entrepreneur innate, and to what extent can they be taught or cultivated? This branch of our research concentrates on the role and traits of the individual innovator as a critical catalyst in processes of social change.</span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4 col-sm-6 text-center">
+                            <div class="feature feature-icon-large">
+                               <i class="icon icon_genius"></i>
+                                <div class="pin-body"></div>
+                                <div class="pin-head"></div>
+                                <h5>Networks</h5>
+                                <span>Individual social entrepreneurs and innovators draw upon their personal and professional networks for inspiration, knowledge, and resources. How do entrepreneurs' families, mentors, and educational institutions shape the work that they do? Our research in this area seeks to understand the critical components of a social entrepreneur's network that enable successful innovation, and how these can be enriched.</span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4 col-sm-6 text-center">
+                            <div class="feature feature-icon-large">
+                                 <i class="icon icon_globe_alt"></i>
+                                <div class="pin-body"></div>
+                                <div class="pin-head"></div>
+                                <h5>Ecosystems</h5>
+                                <span>How do government policies, local geography and resources, existing organisations, and the funding landscape create or restrict opportunities for social innovators and entrepreneurs in North India? What institutional and other contextual prerequisites make social entrepreneurship both possible and effective? We seek to explore how social entrepreneurship can develop synergies with existing efforts to meet social needs.</span>
+                            </div>
+                        </div>
+                    
+        
+                    </div>
+                </div>
+            </section>
+    <header class="signup"> 
+                    <div class="background-image-holder parallax-background">
+                        
+                    </div>
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
+                                <h1 class="text-white">We're developing a toolkit for social innovators.<br>Stay in touch for updates on it.</h1>
+                            </div>
+                        </div>
+<!-- Begin MailChimp Signup Form -->
 
-     <section class="no-pad clearfix">
-    <div class="col-md-4 col-sm-6 no-pad">
-    <div class="feature-box bg-primary">
-    <p class="text-white">
-    What makes a changemaker? How do individual characteristics such as age, gender, and personality influence who becomes a social entrepreneur? To what extent are the characteristics of a social entrepreneur innate, and to what extent can they be taught or cultivated? This branch of our research concentrates on the role and traits of the individual innovator as a critical catalyst in processes of social change.&nbsp;</p>
-
-    <a href="http://www.jsie.in/research/seq" target="_blank" class="btn btn-primary btn-white">Tell Me More</a>
-    </div>
-    </div>
-    <div class="col-md-4 col-sm-6 no-pad">
-    <div class="feature-box bg-secondary-1">
-    <p class="text-white">
-    Individual social entrepreneurs and innovators draw upon their personal and professional networks for inspiration, knowledge, and resources. How do entrepreneurs' families, mentors, and educational institutions shape the work that they do? Our research in this area seeks to understand the critical components of a social entrepreneur's network that enable successful innovation, and how these can be enriched.</p>
-    </div>
-    </div>
-    <div class="col-md-4 col-sm-6 no-pad">
-    <div class="feature-box bg-secondary-2">
-    <p class="text-white"> How do government policies, local geography and resources, existing organisations, and the funding landscape create or restrict opportunities for social innovators and entrepreneurs in North India? What institutional and other contextual prerequisites make social entrepreneurship both possible and effective? We seek to explore how social entrepreneurship can develop synergies with existing efforts to meet social needs.</p>
-    </div>
-    </div>                
-    </section>
-     <section class="text-banner">
-    <div class="container text-center">
-    <div class="row">
-    <div class="col-sm-12">
-    <ul class="icons-large">                                    
-    <li><i class="icon icon-chat"></i></li>
-    </ul>
-    <h1 class="center-block"><b><strong>TURNING RESEARCH INTO PRACTICE</b></strong></h1>
-    </div>
-    </div>
-    <div class="row">
-    <div class="col-sm-10 col-sm-offset-1">
-    <h3 class="lead">
-    As a social innovation hub within O.P. Jindal Global University, JSiE  seeks to foster conversation between academics, social entrepreneurs and community leaders. We collaborate with academic researchers to explore applications of their research in the social innovation field. &nbsp;&nbsp;</h3>
-    </div>
-    </div>
-    <div class="row">
-    <div class="col-md-12">
-    <a href="https://jsie.typeform.com/to/X8q7PL" target="_blank" class="btn btn-primary btn-grey">Want to Partner with Us?</a>
-    </div>
-    </div>
-    </div>
-    </section>
-    </div>
+                                <div class="col-md-6 centered">
+                                <div class="photo-form-wrapper clearfix">
+                                <form action="//jsie.us9.list-manage.com/subscribe/post?u=1d9cee480d11c55b46cafda06&amp;id=9dce774ba4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <input type="email" size="50" value="Enter your email" name="EMAIL" class="required email" id="mce-EMAIL" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">                       
+                                    
+                                <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div><div>
+                                <div class="col-md-6 centered">
+                                <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-filled"> 
+                                </div>
+                                </form>
+                                </div>
+                                <!--End mc_embed_signup-->
+                                
+                        
+                        </div>
+                        
+                    </div>  
+            </header>
+        </div>
  <%= render 'layouts/footer' %>
 <script> mixpanel.track("research");</script>
 		
