@@ -327,11 +327,17 @@ section:nth-of-type(even) {
   transition: all .3s ease;
   min-width: 155px;
 }
+.btn-xs:hover {
+  background: none;
+  color: #fff;
+  border-color: #fff;
+  background-color: #e74c3c;
+}
 .btn:hover {
   background: none;
   color: #fff;
-  border-color: #3498db;
-  background-color: #3498db;
+  border-color: #fff;
+  background-color: #fff;
 }
 .btn-primary {
   border-radius: 25px;
@@ -347,10 +353,18 @@ section:nth-of-type(even) {
   color: #3498db;
 }
 .btn-primary.btn-filled {
-  background: #293d51;
+  background: #2980b9;
+  color: #fff;
+}
+.btn-primary.btn-filled:hover {
+  background: #e74c3c;
   color: #fff;
 }
 .btn-primary.btn-filledhome {
+  background: #2980b9;
+  color: #fff;
+}
+.btn-home.btn-filledhome {
   background: #2980b9;
   color: #fff;
 }
@@ -648,6 +662,9 @@ nav hr {
   margin-bottom: 16px;
 }
 .subnav-fullwidth .btn:hover {
+  color: #fff !important;
+}
+.subnav-fullwidth .btn-xs:hover {
   color: #fff !important;
 }
 .subnav-fullwidth .btn-filled,
@@ -3735,7 +3752,7 @@ footer.short-2 .contact-action:hover {
   margin-right: 16px;
   font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #3498db;
@@ -3745,7 +3762,7 @@ footer.short-2 .contact-action:hover {
   margin-right: 0px;
 }
 .blog-filters li.active {
-  border-bottom: 2px solid #3498db;
+  border-bottom: 3px solid #e74c3c;
 }
 .article-body .media-holder {
   margin: 32px 0px;

@@ -146,15 +146,17 @@
         </div>
     </section>
 		</div>
+
 		<section id="location" class="blog-image-snippet">
 				<div class="background-image-holder parallax-background">
-					<%= image_tag('jgu.jpg', class: 'background-image', alt: 'JGU') %>
+                    <%= link_to "http://www.jgu.edu.in/" do %>
+                    <%= image_tag "jgu.jpg", class: "background-image" %>
+                    <% end %>
 				</div>
 				
 				<div class="container">			
 					<div class="row">
 						<div class="col-sm-12">		
-							<a href="blog-single.html">
 								<h1 class="text-white">Located on the campus of O.P. Jindal Global University</h1>
 								<span class="text-white">A Private University Promoting Public Service</span>
 								<span class="text-white"><i class="icon icon_pin_alt"></i> Sonipat, Delhi NCR, India</span>
