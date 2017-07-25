@@ -2,9 +2,9 @@
  <% content_for :head do %>
   <meta property="og:url"           content="http://www.jsie.in/" />
   <meta property="og:type"          content="website" />
-  <meta property="og:title"         content="A Social Innovation Lab in North India" />
+  <meta property="og:title"         content="JSiE: A Social Innovation Lab in North India" />
   <meta property="og:description"   content="The Jindal Centre for Social Innovation & Entrepreneurship at O.P. Jindal Global University" />
-  <meta property="og:image"         content="<%=asset_url('jsieface.jpg') %>" />
+  <meta property="og:image"         content="<%=asset_url('jsief2.jpg') %>" />
   <meta property="fb:app_id"        content="1535582636740127" />
   <% end %>
 		<div class="main-container">
@@ -18,7 +18,7 @@
 						<div class="col-sm-12 text-center">
 							<br>
 							<div class="spacer-60"></div>
-							<h1 class="text-white space-bottom-medium"><br>A social innovation lab in North India</h1>
+							<h1 class="text-white space-bottom-medium">Strengthen tomorrow’s leaders. <br>Impact the future.</h1>
 							<%= link_to "Learn more", "#{root_path}#projects", :class => "btn btn-primary btn-filledhome" %>
 							<div class="spacer-60"></div>
 						</div>
@@ -101,14 +101,34 @@
 											<h1>A startup incubator with a social mission</h1>
 											 <div class="row">
 											<div class="col-md-12 text-center">
-											<%= link_to "Have a startup idea?", "https://jsie.typeform.com/to/uEdm99", :class => "btn-xs btn-primary btn-filled" %>
+											<%= link_to "Learn More", "http://www.jsie.in/startup", :class => "btn-xs btn-primary btn-filled" %>
 									</div>
 								</div>
 							</div>
 						</div>
 					  </div>
-
-							<div class="col-md-4 col-sm-6 blog-masonry-item startup">
+					<div class="col-md-4 col-sm-6 blog-masonry-item research">
+								<div class="item-inner">
+											<%= image_tag('sewe.jpg', class: 'background-image', alt: 'Women Empowerment Through Social Enterprise') %>
+										</a>
+										<div class="post-title">
+											<h2>Activist to Entrepreneur: Role of social enterprise in supporting women’s empowerment </h2>
+											<p>
+												 This research looks at mutually reinforcing linkage between women’s empowerment and social enterprise across five countries: the UK, the United States, Brazil, India, and Pakistan.  
+											</p>
+											<div class="row">
+											<div class="col-md-6">
+												<span class="sub alt-font">Research Publication</span>
+												<span class="sub alt-font"></span>
+											</div>
+											<div class="col-md-6">
+											<%= link_to "Learn More", "https://www.britishcouncil.org/society/social-enterprise/news-events/activist-entrepreneur-role-social-enterprise-supporting-women", :class => "btn-xs btn-primary btn-filled" %>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-4 col-sm-6 blog-masonry-item startup">
 								<div class="item-inner">
 									<%= image_tag('climate.jpg', class: 'background-image', alt: 'Artificial Intelligence Combating Climate Change') %>
 										<div class="post-title">
@@ -123,27 +143,6 @@
 											</div>
 											<div class="col-md-6">
 											<%= link_to "Learn More", "https://blog.jsie.in/can-artificial-intelligence-help-us-combat-climate-change-67b590f25ec8#.ymsogn355", :class => "btn-xs btn-primary btn-filled" %>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 blog-masonry-item research">
-								<div class="item-inner">
-											<%= image_tag('sewe.jpg', class: 'background-image', alt: 'Women Empowerment Through Social Enterprise') %>
-										</a>
-										<div class="post-title">
-											<h2>Empowering Women Through Social Enterprise</h2>
-											<p>
-												 This research looks at mutually reinforcing linkage between women’s empowerment and social enterprise across five countries: the UK, the United States, Brazil, India, and Pakistan.  
-											</p>
-											<div class="row">
-											<div class="col-md-6">
-												<span class="sub alt-font">Research Project</span>
-												<span class="sub alt-font"></span>
-											</div>
-											<div class="col-md-6">
-											<%= link_to "Learn More", "https://blog.jsie.in/womens-empowerment-and-social-enterprise-99e735d82b91#.ci2nxoxyu", :class => "btn-xs btn-primary btn-filled" %>
 									</div>
 								</div>
 							</div>

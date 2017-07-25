@@ -1,150 +1,223 @@
 <%= render 'layouts/nav' %>
 <% content_for :head do %>
-  <meta property="og:url"           content="http://www.jsie.in/" />
+  <meta property="og:url"           content="http://www.jsie.in/about" />
   <meta property="og:type"          content="website" />
-  <meta property="og:title"         content="A Social Innovation Lab in North India" />
-  <meta property="og:description"   content="The Jindal Centre for Social Innovation & Entrepreneurship at O.P. Jindal Global University" />
-  <meta property="og:image"         content="<%=asset_url('jsieface.jpg') %>" />
+  <meta property="og:title"         content="The Jindal Centre for Social Innovation & Entrepreneurship (JSiE)" />
+  <meta property="og:description"   content="An award winning social impact centre within OP Jindal Global University" />
+  <meta property="og:image"         content="<%=asset_url('intro77.jpg') %>" />
   <meta property="fb:app_id"        content="1535582636740127" />
   <% end %>
-				<header class="header-icons overlay">
-					<div class="background-image-holder parallax-background">
-					</div>
-					
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-12">
-								<h1 class="text-white">
-									<br>
-									<font size="60">A <strong>Social Innovation Lab</strong> in North India</font>
-								</h1>
-							</div>
-						</div>
-						
-						<div class="row">
-							<div class="col-sm-4">
-								<i class="icon icon_easel text_white"></i>
-								<h2 class="text-white">Social Enterprise Courses</h2>
-							</div>
-							
-							<div class="col-sm-4">
-								<i class="icon icon_lightbulb_alt text_white"></i>
-								<h2 class="text-white">Startup Venture Incubation</h2>
-							</div>
-							
-							<div class="col-sm-4">
-								<i class="icon icon_documents_alt text_white"></i>
-								<h2 class="text-white">Social Impact Research</h2>
-							</div>
-						</div>
-		
-					</div>	
-			</header>
-		</div>
-		<section id="vision" class="feature-divider">
-			
-				<div class="background-image-holder" data-scroll-reveal="wait 0.2s then enter 200px from bottom over 0.3s">
-					
-				</div>
-			
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-5">
-							<h1>Vision</h1>
-							<p class="lead">
-								The Jindal Centre for Social Innovation & Entrepreneurship (JSiE) aims to strengthen the capacity of individuals and organizations to develop<b> innovative solutions</b> to complex <b>social and environmental problems. </b>JSiE’s mission is to help build a <b>social enterprise ecosystem</b> and catalyze <b>inclusive growth and development</b> across India. The social innovation lab designs<b> innovation challenges</b>, develops new<b> curriculum</b> and engages in <b>social problem-centric research</b> alongside industry and community partners. The startup academy supports aspiring entrepreneurs in the generation of new sustainable ventures by providing pre-incubation and skill development training.
-							</p>
-				
-						</div>
-					
-						<div class="col-sm-7" data-scroll-reveal="enter from bottom and move 100px">
-							<%= image_tag('jsieabout.png', alt: 'JSiE') %>
-						</div>
-					</div>
-				</div>
-			</section>
-		</div>
-	<!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h1 class="section-heading">Our Team</h1>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 team-item">
-                         <a href="#teamModal1" class="team-link" data-toggle="modal">
-                        <div class="team-hover">
-                            <div class="team-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                            </div>
-                            <div class="team-caption">
-                         <%= image_tag('jwade.jpg', class: 'img-responsive img-circle', alt: 'Jeremy Wade') %>
-                        <h2><font color="#ecf0f1">Jeremy Wade</font></h2>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 team-item">
-                         <a href="#teamModal5" class="team-link" data-toggle="modal">
-                        <div class="team-hover">
-                            <div class="team-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                            </div>
-                            <div class="team-caption">
-                         <%= image_tag('is1.jpg', class: 'img-responsive img-circle', alt: 'Isabel Salovaara') %>
-                        <h2><font color="#ecf0f1">Isabel Salovaara</font></h2>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 team-item">
-                        <a href="#teamModal3" class="team-link" data-toggle="modal">
-                        <div class="team-hover">
-                            <div class="team-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                            </div>
-                         <div class="team-caption">
-                        <%= image_tag('rs.jpg', class: 'img-responsive img-circle', alt: 'Rohini Sen') %>
-                        <h2><font color="#ecf0f1">Rohini Sen</font></h2>
-                    </div>
-                </div>
-            </div>
-                 <div class="row">
-                <br>
-                   <div class="col-md-4 col-sm-6 team-item">
-                         <a href="#teamModal2" class="team-link" data-toggle="modal">
-                        <div class="team-hover">
-                            <div class="team-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                            </div>
-                            <div class="team-caption">
-                         <%= image_tag('ab.jpg', class: 'img-responsive img-circle', alt: 'Ashish Bharadwaj') %>
-                        <h2><font color="#ecf0f1">Ashish Bharadwaj</font></h2>
-                    </div>
-                </div>
 
-         <div class="col-md-4 col-sm-6 team-item">
-                         <a href="#teamModal4" class="team-link" data-toggle="modal">
-                        <div class="team-hover">
-                            <div class="team-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+        <div class="main-container">
+        <section class="pure-text-centered">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+                            <span class="sub alt-font">About</span>
+                            <h1><strong>A social innovation lab in North India</strong></h1>
+                            <p class="lead">
+                                        <strong>The Jindal Centre for Social Innovation & Entrepreneurship (JSiE) is an <a href="https://blog.jsie.in/jsie-receives-award-at-university-of-oxford-for-work-supporting-social-entrepreneurship-1d06723a993e"> award winning </a> social impact centre within <a href="https://www.jgu.edu.in/"> OP Jindal Global University</a>. </strong> JSiE works to strengthen the <a href="https://www.eiuperspectives.economist.com/sites/default/files/Social_Innovation_Index_0.pdf">capacity for social innovation</a> in North India and joins a global network of actors working to address the 21st century’s most pressing challenges. By building bridges between socially responsible leaders around the world, JSiE aims to spur more inclusive economic growth and development in India and globally. 
+                            </p>
+                        </div>
+                    </div>
+        
+                </div>
+            </section>
+            
+            <section class="primary-features duplicatable-content">
+                <div class="container">
+                    <div class="row">
+        
+                            <div class="col-md-4 col-sm-6 clearfix">
+                                <div class="feature feature-icon-small">
+                                    <i class="icon icon_easel"></i>
+                                    <h6 class="text-white">Learn</h6>
+                                    <p class="text-white">
+                                        We develop learning tools that enable leaders to take action on market-based approaches to social impact and experimenting with social innovation ideas.  
+                                    </p>
+                                </div>
                             </div>
+                        
+                            <div class="col-md-4 col-sm-6 clearfix">
+                                <div class="feature feature-icon-small">
+                                    <i class="icon icon_lightbulb"></i>
+                                    <h6 class="text-white">Startup</h6>
+                                    <p class="text-white">
+                                        We design social innovation challenges and provide startup incubation services to support a rising generation of entrepreneurs  in India. 
+                                    </p>
+                                </div>
                             </div>
-                            <div class="team-caption">
-                         <%= image_tag('r.jpg', class: 'img-responsive img-circle', alt: 'R Sudarshan') %>
-                        <h2><font color="#ecf0f1">R Sudarshan</font></h2>
+                        
+                            <div class="col-md-4 col-sm-6 clearfix">
+                                <div class="feature feature-icon-small">
+                                    <i class="icon icon_book"></i>
+                                    <h6 class="text-white">Research</h6>
+                                    <p class="text-white">
+                                        We engage in research that contributes to the social impact ecosystem. Our aim is to bring together academics and practitioners in order to disseminate this knowledge globally.
+                                    </p>
+                                </div>
+                            </div>
+        
+                    </div>
+                
+                </div>
+            </section>
+            
+            <section class="duplicatable-content">
+            
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h1>Our focus</h1>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="feature feature-icon-large">
+                                <div class="pull-left">
+                                    <i class="icon icon-genius"></i>
+                                </div>
+                                <div class="pull-right">
+                                    <h5>Building Social Innovation Capacity</h5>
+                                    <p>
+                                        Achieving positive and sustainable change for communities and society requires us all to think differently. Social Innovation is about innovating <strong>for</strong> society. To realize it's potential, we need rigour and clarity in the field of social innovation. According to the Social Innovation Index 2016 contructed by the Economist Intellegence Unit, the four pillars of social innovation capacity are: Institutional & policy framework, availability of financing, level of entrepreneurship, & depth of civil society networks. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6">
+                            <div class="feature feature-icon-large">
+                                <div class="pull-left">
+                                    <i class="icon icon-linegraph"></i>
+                                </div>
+                                <div class="pull-right">
+                                    <h5>Research for the Social Impact Ecosystem</h5>
+                                    <p>
+                                        In addition to measuring  economic growth and GDP, we need robust systems to measure social impact and wellbeing. Social impact should be structured as an academic discipline and generate actionable insights for practitioners. Our research examines the spectrum of factors, from the individual entrepreneur to the broader ecosystem, that enable social entrepreneurship and innovation to flourish. We seek to develop holistic strategies and recommendations for fostering social innovation in North India.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                  <div class="col-sm-6">
+                            <div class="feature feature-icon-large">
+                                <div class="pull-left">
+                                    <i class="icon icon-desktop"></i>
+                                </div>
+                                <div class="pull-right">
+                                    <h5>India-Global Shared Value Partnerships</h5>
+                                    <p>India's reemergence onto the world stage in the 21st century will have a profound impact. There is no global challenge for which an understanding of the Indian perspective will not only deepen one’s knowledge but also provide a window into the solution. Our focus is global and our is aim is to partner globally in everything we do. 
+                                    </p>
+                                </div>
+                            </div>
+                       </div>
+                        <div class="col-sm-6">
+                            <div class="feature feature-icon-large">
+                                <div class="pull-left">
+                                    <i class="icon icon-tools-2"></i>
+                                </div>
+                                <div class="pull-right">
+                                    <h5>Open Innovation for Sustainable Development</h5>
+                                    <p>
+                                       As the global economy enters a 4th industrial revolution, it’s time to redefine capitalism in the 21st century. The future demands more models of open innovation and inclusive economic growth. The Sustainable Development Goals are a positive step. We believe increased levels of social innovation & entrepreneurship will bring us closer toward their achievement.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                     
+            </section>
+        </div>
+	</div>
+        <section class="strip bg-primary">
+                <div class="container">
+                    <div class="row clearfix">
+                        <div class="col-sm-6 col-xs-12 pull-left">
+                            <h3 class="text-white"><strong>Interested to partner with us? </strong></h3> 
+                        </div>
+                        
+                        <div class="col-sm-4 col-xs-12 pull-right text-right">
+                            <a href="#" class="btn btn-primary btn-filled btn-white">Contact us</a>
+                        </div>
                     </div>
                 </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted"></p>
+            </section>
+               
+        <div class="main-container">
+        <section class="team-1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <h1>Our Team</h1>
+                        </div>
+                    </div>
+                    
+                    <div class="row space-bottom-large">
+                        <div class="col-sm-4">
+                            <div class="team-1-member">
+                                <%= image_tag('jwade.jpg', class: 'img-responsive img-circle', alt: 'Jeremy Wade') %>
+                                <h2>Jeremy Wade</h2>
+                                <h5>Founding Director</h5>
+                         
+                               </div>
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <div class="team-1-member">
+                                <%= image_tag('is1.jpg', class: 'img-responsive img-circle', alt: 'Isabel Salovaara') %>
+                                <h2>Isabel Salovaara</h2>
+                                <h5>Assistant Director</h5>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <div class="team-1-member">
+                                <%= image_tag('r.jpg', class: 'img-responsive img-circle', alt: 'R Sudarshan') %>
+                                <h2>R Sudarshan</h2>
+                                <h5>Faculty Chair</h5>
+                            </div>
+                        </div>
+                        
+         <div class="row">
+                        <div class="col-md-3 col-sm-4">
+                            <div class="team-1-member">
+                                <%= image_tag('mishaal.jpg', class: 'img-responsive img-circle', alt: 'Mishaal Nathani') %>
+                                <h5>Mishaal Nathani</h5>
+                                <span>Research Assistant</span><br>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-4">
+                            <div class="team-1-member">
+                                <%= image_tag('anish.jpg', class: 'img-responsive img-circle', alt: 'Anish Krishnan') %>
+                                <h5>Anish Krishnan</h5>
+                                <span>Research Assistant</span><br>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-4">
+                            <div class="team-1-member">
+                               <%= image_tag('shine.jpg', class: 'img-responsive img-circle', alt: 'Shine Varghese') %>
+                                <h5>Shine Varghese</h5>
+                                <span>Research Assistant</span><br>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-4">
+                            <div class="team-1-member">
+                                 <%= image_tag('female.jpg', class: 'img-responsive img-circle', alt: 'Join Us') %>
+                                <h5>Opportunities Available</h5>
+                                <span><a href="https://jsie.typeform.com/to/JK2ReG">Join us!</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
-            </div>
-        </div>
-    </section>
+                    
+                </div>
+            </section>
 		</div>
 
 		<section id="location" class="blog-image-snippet">
@@ -153,11 +226,11 @@
                     <%= image_tag "jgu.jpg", class: "background-image" %>
                     <% end %>
 				</div>
-				
+			
 				<div class="container">			
 					<div class="row">
 						<div class="col-sm-12">		
-								<h1 class="text-white">Located on the campus of O.P. Jindal Global University</h1>
+								<h1 class="text-white">O.P. Jindal Global University</h1>
 								<span class="text-white">A Private University Promoting Public Service</span>
 								<span class="text-white"><i class="icon icon_pin_alt"></i> Sonipat, Delhi NCR, India</span>
 								<a href="http://www.jgu.edu.in/" target="_blank"><span class="text-white"><i class="icon icon_link"></i>www.jgu.edu.in</span></a>
@@ -166,198 +239,80 @@
 				</div>
 			</section>
 		</div>
-		<!-- Change the width and height values to suit you best -->
-<section id="contact">
-<div class="typeform-widget" data-url="https://jsie.typeform.com/to/X8q7PL" data-text="Contact Form" style="width:100%;height:500px;"></div>
-<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script></section>
-		
-    <!-- Team Modals -->
-    <!-- Use the modals below to showcase details about each team members bios! -->
-
-    <!-- Team 1 - Jeremy Wade -->
-    <div class="team-modal modal fade" id="teamModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
+        <section class="pure-text-contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+                            <span class="sub alt-font"></span>
+                            <h1><strong>We're located in Delhi, India<br> and networked globally.</strong></h1>
+ 
+                <div class="background-image-holder parallax-background">
+                    <img class="background-image" alt="Background Image" src="img/hero22.jpg">
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h1>Jeremy Wade</h1>
-                          
-							<ul class="social-icons">
-								<li>
-									<%= link_to "<i class=\"iicon social_twitter\"></i>".html_safe, "https://twitter.com/jwadejeremy"-%></li>
-								<li>
-									<%= link_to "<i class=\"iicon social_facebook\"></i>".html_safe, "https://www.facebook.com/jeremy.wade"-%></i>
-								</li>
-								
-								<li>
-									<%= link_to "<i class=\"iicon social_linkedin\"></i>".html_safe, "https://in.linkedin.com/in/jeremyjwade"-%>
-								</li>
-									<li>
-									<%= link_to "<i class=\"iicon social_instagram\"></i>".html_safe, "https://www.instagram.com/jeremy.jwade/"-%>
-									</li>
-							</ul>
-					
-						
+            
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                            <ul class="expanding-ul">
+                                <li>
+                                    <div class="title">
+                                        <span><strong>British Council Social Enterprise Program (SEEP)</strong></span> 
 
-                           <p class="item-intro text-muted"></p>
-                            <p> Jeremy Wade is the Founding Director of the Jindal Centre for Social Innovation & Entrepreneurship (JSiE). Jeremy is an educator on the FutureLearn Social Enterprise Program and teaches international business at the Jindal School for Liberal Arts and Humanities. Jeremy started his career at the United States Department of the Treasury where he helped supervise a portfolio of financial institutions in the aftermath of the Global Financial Crisis from 2008-2012. Jeremy has experience working in investment banking in Beijing, China and completed two research projects with the U.S. State Department’s Office of eDiplomacy VSFS program. Jeremy was awarded the Wall Street Journal Award for Academic Achievement in Finance and the Outstanding Male Senior Finance Student, Kelce School of Business, Pittsburg State University in 2008. Jeremy is also an active web developer.</a>. </p>
-
-                            <h3>Blog Posts</h3>
-                            <br>
-                           	<script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" href="https://medium.com/@jwade/universities-of-the-future-c02a64e670d9">Universities of the Future</a>
-                           	<script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" href="https://blog.jsie.in/building-a-social-innovation-lab-in-north-india-5b47d66fc8f#.gg5zu55rq">Building a Social Innovation Lab in North India</a>
-                            <br>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Team 2 Ashish -->
-    <div class="team-modal modal fade" id="teamModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h1>Ashish Bharadwaj</h1>
-                            <p class="item-intro text-muted"></p>
-                            <ul class="list-inline social-buttons">
-                            <li><a href="https://twitter.com/ashishbharadwaj" target="_blank"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="https://in.linkedin.com/in/ashishbharadwaj1" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
+                                    </div>
+                                    
+                                    <div class="text-content">
+                                        <p>
+                                            The British Council Social Enterprise Program (SEEP) is an initiative to build collaborative partnerships facilitating opportunities to students and faculty in India and the UK.
+                                        </p>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="title">
+                                        <span><strong>Global Social Entrepreneurship Network (GSEN)</strong> </span>
+                                    </div>
+                                    
+                                    <div class="text-content">
+                                        <p>
+                                           GSEN is the global network for organisations supporting early stage social entrepreneurs.
+                                        </p>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="title">
+                                        <span><strong>UBI Global Incubation Impact & Network</strong></span>
+                                    </div>
+                                    
+                                    <div class="text-content">
+                                        <p>
+                                             UBI Global Incubation Impact & Network is a network of over 600 data driven, entrepreneurial centric, incubation programs from over 70 countries, in partnership with Cisco Corporate Affairs. 
+                                        </p>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="title">
+                                        <span><strong>Asia-Pacific Philanthropy Research Network</strong></span>
+                                    </div>
+                                    
+                                    <div class="text-content">
+                                        <p>
+                                            A network of philanthropy research centers in the Asia-Pacific region 
+                                        </p>
+                                    </div>
+                                </li>
                             </ul>
-                            <p> Dr. Ashish Bharadwaj is an Assistant Professor and Assistant Director of Centre for Intellectual Property & Technology Law at Jindal Global Law School and the Jindal Centre for Social Innovation & Entrepreneurship. He is a founding Editor of the Law and Policy Brief and a Convener of the Jindal Initiative for Research on IP & Competition (JIRICO). He is a recipient of the Max Planck Society doctoral fellowship (2009 - 2013) and has been an Erasmus Mundus scholar (2008-2009). Dr. Bharadwaj is an affiliated faculty at the Centre for Intellectual Property Research, Maurer School of Law, Indiana University Bloomington. He teaches economics and offers an elective on innovation and society; technology and policy. Dr. Bharadwaj's main areas of interest include industrial innovation and patents, innovation and IPR policies, and topics at the interface of patents and competition. In 2015, he was invited to present his work on national IPR policies in WIPO (Geneva), and in 2013, he received a grant from the STI Directorate of OECD to scope and populate the IP module of Innovation Policy Platform (an OECD and World Bank initiative). He obtained his Ph.D. from the Max Planck Institute for Innovation & Competition in Munich where he worked on patenting in green technologies across selected technologically proficient economies. In the past he has worked with India Development Foundation, Deutsche Bank Global Markets Research, OECD, World Wide Fund for Nature, and the University of Munich. He holds LL.M. in law and economics from Erasmus University Rotterdam, University of Hamburg, and University of Manchester; M.Sc. in economics from Madras School of Economics, and BA (Hons.) in economics from Delhi University. </p>
-                            <p> 
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Team 3 Rohini  Modal 3 -->
-    <div class="team-modal modal fade" id="teamModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Rohini Sen</h2>
-                            <p class="item-intro text-muted"></p>
-                    
-                            <p>Rohini Sen is an Assistant Professor and Assistant Dean (International Collaborations) at the Jindal Global Law School. She is also an Assistant Director in the Centre for Human Rights Studies, JGLS. Rohini co-founded the Jindal Centre for Social Innovation and Entrepreneurship. Ms Sen has obtained an LL.M. in International Law from the University of Leeds in 2012 and an Undergraduate Degree of B.Sc LLB Law from Gujarat National Law University (2006-2011). In course of her undergraduate degree, she has had the opportunity to work with the Legal and Treaties Division of the Ministry of External Affairs, India. Post the completion of her LLM, she joined the Jindal Global Law School where she teaches public international law, international humanitarian law and human rights and international criminal law. In 2014, Rohini was awarded the VLIR-UOS Scholarship to work with the Leuven Centre for Global Governance Studies in the FRAME project. She has since collaborated with the Centre for subsequent research projects and publications in the area of rule of law, EU-India free trade agreements. Ms Sen has also published articles on unilateral humanitarian intervention, WTO-environment interface and its impact on conflict and jurisprudential foundations of the ECHR. Ms Sen recently participated in the fourth annual junior faculty forum at Florence, in 2015 as one of its laureates. She strongly believes in interdisciplinary research and better integration of the academic and practitioner interface.</p>
-                            <p> 
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+ </div>
+        
                         </div>
                     </div>
+        
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <!--  Team 4 R Sudarshan Modal 4 -->
-    <div class="team-modal modal fade" id="teamModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>R Sudarshan</h2>
-                            <p class="item-intro text-muted"></p>
-                            <p>R Sudarshan is the Dean of the Jindal School of Government and Public Policy and acts as the faculty chair and advisor to Jindal Centre for Social Innovation & Entrepreneurship. Sudarshan comes with a distinguished career in the three domains of research, development programme formulation and implementation, and governance. A nationally successful debater at the college level, Sudarshan was a Rhodes Scholar at the Balliol College, University of Oxford, where he obtained his M.Phil degree. He was Research Fellow at the St. John’s College, University of Cambridge for many years where he taught and carried out research on issues relating to law and public policy. Sudarshan holds a Masters degree from the Delhi School of Economics, University of Delhi where he held a UGC scholarship for Centre for Advanced Studies in Economics. Sudarshan has an impressive track record of publications comprising books, articles, and UN policy reports. He has a dozen years of experience in inter-disciplinary research and teaching in development economics, human development, law, state and poverty at the Universities of Delhi (1972-74), Oxford (1974-77), Cambridge (1977-82), and East Anglia (1982-83). He has another 28 years of experience in the United Nations Development Programme and the Ford Foundation related to public policy. </p>
-                            <p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
- <!-- Team 5 Isabel -->
-    <div class="team-modal modal fade" id="teamModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Isabel Salovaara </h2>
-                            <p class="item-intro text-muted"></p>
-                            <p> Isabel Salovaara is the Assistant Director of the Jindal Centre for Social Innovation & Entrepreneurship and a Senior Research Associate at the Jindal School of Liberal Arts and Humanities. A native of Chicago, Isabel Salovaara completed her B.A. in History from Harvard University in 2012. In addition to conducting archival research on bonded labor in 19th-century New Mexico, Isabel also did interdisciplinary work in global health and health policy and socioeconomic development in India. Supported by a Harvard Pforzheimer Fellowship, she subsequently worked with a nonprofit organization in Delhi dedicated to implementing multi-faceted interventions to improve the lives of slum residents. She has been the recipient of a Fulbright-Nehru Research Grant to study private tuitions in Delhi and a Gates Scholarship to pursue her MPhil in Social Anthropology from the University of Cambridge. Isabel has interfaced with the social entrepreneurship field from a variety of angles, including volunteering in the innovative Health Leads program to provide clinic-based social services, developing the application process for a social venture fund at Harvard Law School, and working for an educational consulting startup in Delhi. 
-                           	</p>
-                            <p> 
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-	 <!-- Team 6 Anirudh -->
-    <div class="team-modal modal fade" id="teamModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Anirudh Agrawal</h2>
-                            <p class="item-intro text-muted"></p>
-                            <p> Anirudh Agrawal is an Assistant Professor, Jindal Global Business School. Previously, he was a PhD Fellow in Social Entrepreneurship at Copenhagen Business School researching on the institutional theory framework to reflect on debates in social entrepreneurship and social innovation. He is teaching short modules on social entrepreneurship, innovation in social media, social media management and business in emerging markets. He has a background in mechanical engineering, social entrepreneurship and consulting in emerging markets. </p>
-                            <p> 
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-     </div> 
+            </section>
+    
          <header class="signup"> 
                     <div class="background-image-holder parallax-background">
                         
@@ -390,5 +345,6 @@
                     </div>  
             </header>
         </div>
+
      <%= render 'layouts/footer' %>
 		<script> mixpanel.track("About");</script>		

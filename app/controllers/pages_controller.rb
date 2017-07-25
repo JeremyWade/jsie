@@ -13,6 +13,8 @@ class PagesController < ApplicationController
   end
   def seq
   end
+  def jeremywade
+  end
   def blog
   end
 end
