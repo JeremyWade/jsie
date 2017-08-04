@@ -17,6 +17,8 @@ class PagesController < ApplicationController
   end
   def isabelsalovaara
   end
+  def startupacademy
+  end
   def blog
   end
 end
