@@ -1,0 +1,49 @@
+<%= render 'layouts/nav' %> 
+ <% content_for :head do %>
+  <meta property="og:url"           content="http://www.jsie.in/about/mukulkumar" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Mukul Kumar: Bio" />
+  <meta property="og:description"   content="Senior Advisor, JSiE" />
+  <meta property="og:image"         content="<%=asset_url('mk.jpg') %>" />
+  <meta property="fb:app_id"        content="1535582636740127" />
+  <% end %>
+
+		<div class="main-container">
+		<section class="article-single">
+				<div class="container">
+					<div class="row">
+		
+						<div class="col-sm-4 col-md-3">
+							<div class="author-details no-pad-top">
+								<%= image_tag('mk.jpg', class: 'img-responsive img-circle', alt: 'Mukul Kumar') %>
+								<h5>Mukul Kumar</h5>
+								<ul class="social-icons">
+								<li>
+								<%= link_to "<i class=\"iicon social_linkedin\"></i>".html_safe, "https://www.linkedin.com/in/mukulvayan"-%>
+							    </li>
+							</ul>	
+
+							</div>
+						</div>
+									
+						<div class="col-sm-8">
+							<div class="article-body">
+									<p class="lead"> Mukul Kumar, Senior Advisor <br> Jindal Centre for Social Innovation and Entrepreneurship</p>
+
+									<p>
+									With more than 25 years’ experience, based in Switzerland, in sustainable economic development spanning work on projects in more than 50 countries across 5 continents, Mukul has a passion for “bridging the implementation gap”. He has extensive program design, finance, implementation and monitoring experience and has worked on different roles like founding and managing his own social enterprises, business coaching for innovative initiatives, working for a donor government (Switzerland), to consultant, advisor and mentor.</p>  
+									<p>
+									Mukul has recently joined Micro-Credit Ratings International Limited (M-CRIL) in Gurgaon as CEO. He is also a Business Coach for Climate KIC, Zurich and Independent Member, TA Committee of the IFC Global Energy Access Fund managed by responsAbility, Zurich. Previously he was a Senior Advisor for developing Global Programs at Impact Hub Geneva.</p>
+									<p>
+									His experience in sustainable economic development includes work on social finance, environment, energy, climate change, innovation, entrepreneurship and globalisation. </p>
+									<p>
+									Mukul has a Bachelor from Trent University, Canada; a Master in International Economics and Management (cum laude) from SDA Bocconi, Italy; and a Certificate in Socially Responsible Finance from the Institute of Social Banking and Alanus University, Germany. 
+ 
+									</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>	
+			</section>
+		</div>

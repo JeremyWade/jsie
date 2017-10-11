@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get "research/seq" => "pages#seq"
   get "about/jeremywade" => "pages#jeremywade"
   get "about/isabelsalovaara" => "pages#isabelsalovaara"
+  get "about/mukulkumar" => "pages#mukulkumar"
   get "startupacademy" => "pages#startupacademy"
 
   # The priority is based upon order of creation: first created -> highest priority.
