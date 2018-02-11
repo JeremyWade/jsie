@@ -7,45 +7,104 @@
   <meta property="og:image"         content="<%=asset_url('ubi.jpg') %>" />
   <meta property="fb:app_id"        content="1535582636740127" />
   <% end %>
-  <div class="spacer-100"></div>
-  	<header class="page-header">
-				<div class="background-image-holder parallax-background">
-						<%= image_tag('ubi.jpg', class: 'background-image', alt: 'JSiE') %>
-				</div>
-				
-				<div class="container">
+  <div class="main-container">
+        <section class="pure-text-centered">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+                            <span class="sub alt-font">Startup</span>
+                            <h1><strong>A Startup Incubator with a Social Mission</strong></h1>
+                            <p class="lead">
+                            JSiE offers guidance and resources to early-stage startup entrepreneurs. JSiE has dedicated programs for students of OP Jindal Global University and selected entrepreneurs from the Tibetan community in India. Our programs focus on helping entrepreneurs develop a clear and unique business model. We aim to support inclusive growth and development across India through entrepreneurship training. 
+                        </div>
+                    </div>
+        
+                </div>
+            </section>
+		<section class="duplicatable-content">
+				<div class="container"?
+					
 					<div class="row">
-						<div class="col-sm-12">
-							<div class="spacer-100"></div>
-							<span class="text-white alt-font"></span>
-							<h1 class="text-white">Startup incubator with a social mission</h1>
-							<p class="text-white lead">Supporting inclusive growth through a new generation of entrepreneurs</p>
-							<%= link_to "Learn More", "https://blog.jsie.in/tibetan-entrepreneurship-development-67124803e730", :class => "btn btn-primary btn-filled" %>
+						<div class="col-md-6 col-sm-6 text-center">
+							<div class="blog-snippet-1">
+								<%= image_tag('gsen.png', class: 'background-image', alt: 'GSEN') %>
+							</div>
 						</div>
-					</div>
-				</div>
-			</header>
-		</div>
-				<div class="spacer-50"></div>
+						
+						<div class="col-md-6 col-sm-6 text-center">
+							<div class="blog-snippet-1">
+								<%= image_tag('ubinetwork.png', class: 'background-image', alt: 'UBI Network') %>
+							</div>
+						</div>
+			</section>
 			<section class="inline-image-right">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6 align-vertical no-align-mobile">
 							<h1>Tibetan Entrepreneur Development</h1>
 							<h6></h6>
-							<p class="lead">
-								JSiE has supported three pre-incubation cycles of Tibetan entrepreneurs living in India. The program provides business model generation and legal support from the JSiE team and faculty members of OP Jindal Global University. JSiE is a member of UBI Global Incubation Impact Network - a network of 400 data driven, entrepreneurial centric, incubation programs from over 70 countries, in partnership with Cisco Corporate Affairs. 
+								<p class="lead">
+						 	
+							JSiE has hosted three incubation cycles as an incubation partner to the Tibetan Entrepreneurship Development initiative program. 
+
 							</p>
-							<%= link_to "Learn More", "https://blog.jsie.in/tibetan-entrepreneurship-development-67124803e730#.on1rlbv5l", :class => "btn btn-primary btn-grey" %>
+							<p>
+						 	Students and faculty from across the schools of the O.P. Jindal Global University lend their expertise in the
+							areas of business model development, marketing, product management, digital media, and
+							legal services. JSiE prepares the entrepreneurs to meet with prospective investors by
+							helping them develop a clear business model and communicate that model through a pitching presentation. Alumni of the program have founded enterprises ranging from a Tibetan clothing line to an IT services company, many with the aim of supporting the Tibetan community in India through employment opportunities, skill development, and cultural preservation and promotion.
+							</p>
+							<%= link_to "Learn More", "https://blog.jsie.in/tibetan-entrepreneurship-development-67124803e730#.on1rlbv5l", :class => "btn btn-primary btn-filled" %>
 						</div>
 						
 						<div class="col-sm-6 text-center">
-							<%= image_tag('tibetan.jpg', class: 'product-image', alt: 'Tibetan Entrepreneurship Development ') %>
+							<%= image_tag('tedi1.jpg', class: 'product-image', alt: 'Tibetan Entrepreneurship Development ') %>
 						</div>
 					</div>
 				</div>
 			</section>
-		
+		                    <section class="strip bg-primary">
+                <div class="container">
+                    <div class="row clearfix">
+                        <div class="col-sm-6 col-xs-12 ">
+                            <h3 class="text-white"><strong>Startup Academy by JSiE </strong>at O.P. Jindal Global University</h3>
+                        </div>
+                        
+                        <div class="col-sm-6 col-xs-12 ">
+                            <%= link_to "Startup Academy Stories", "https://medium.com/startup-academy-by-jsie", :class => "btn btn-primary btn-white btn-filled" %>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="blog-masonry bg-muted">
+                <div class="container">
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="blog-masonry-container">
+
+                            <div class="col-md-4 col-sm-6 blog-masonry-item research">
+                                <div class="item-inner">
+                                            <%= image_tag('foodrocket.jpg', class: 'background-image', alt: 'FoodRocket - Anish Krishnan') %>
+                                        </a>
+                                        <div class="post-title">
+                                            <h2>FoodRocket - Anish Krishnan</h2>
+                                            <p>
+                                             How a second year law student started a food delivery service in 6 days.
+                                            </p>
+                                            <div class="row">
+                                            <div class="col-md-12 text-center">
+                                            <%= link_to "Read the Story", "https://medium.com/startup-academy-by-jsie/foodrocket-how-a-second-year-student-started-a-food-delivery-service-in-6-days-933aa1e348eb", :class => "btn-xs btn-primary btn-filled" %>
+                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 		<header class="signup"> 
 					<div class="background-image-holder parallax-background">
 						
@@ -54,7 +113,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
-								<h1 class="text-white">A Social Innovation Lab in North India</h1>
+								<h1 class="text-white">An award winning social impact centre <br> in North India</h1>
 							</div>
 						</div>
 <!-- Begin MailChimp Signup Form -->

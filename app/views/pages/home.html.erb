@@ -2,8 +2,8 @@
  <% content_for :head do %>
   <meta property="og:url"           content="http://www.jsie.in/" />
   <meta property="og:type"          content="website" />
-  <meta property="og:title"         content="JSiE: A Social Innovation Lab in North India" />
-  <meta property="og:description"   content="The Jindal Centre for Social Innovation & Entrepreneurship at O.P. Jindal Global University" />
+  <meta property="og:title"         content="JSiE: An award-winning social impact centre in North India" />
+  <meta property="og:description"   content="The Jindal Centre for Social Innovation + Entrepreneurship at O.P. Jindal Global University" />
   <meta property="og:image"         content="<%=asset_url('jsief2.jpg') %>" />
   <meta property="fb:app_id"        content="1535582636740127" />
   <% end %>
@@ -18,9 +18,9 @@
 						<div class="col-sm-12 text-center">
 							<br>
 							<div class="spacer-60"></div>
-							<h1 class="text-white space-bottom-medium">Strengthen tomorrow’s leaders. <br>Impact the future.</h1>
+							<h1 class="text-white space-bottom-medium">Strengthen tomorrows leaders. <br> Impact the future. </h1>
 							<%= link_to "Learn more", "#{root_path}#projects", :class => "btn btn-primary btn-filledhome" %>
-							<div class="spacer-60"></div>
+						
 						</div>
 					</div>
 				</div>
@@ -30,7 +30,7 @@
 				<div class="container">
 					<div class="row clearfix">
 						<div class="col-sm-3 col-xs-12 pull-left">
-							<a href="https://jsie.typeform.com/to/X8q7PL" target="_blank" class="btn btn-primary btn-grey">Contact Us</a>
+							<a href="http://jgu.edu.in/" target="_blank" ><h5>O.P. Jindal Global University</h5></a>
 						</div>
 						
 						<div class="col-sm-4 col-xs-12 pull-right text-right">
@@ -41,9 +41,6 @@
 								<li>
 								<%= link_to "<i class=\"iicon social_twitter\"></i>".html_safe, "https://twitter.com/jsiein"-%>
 								</li>
-								<li>
-								<%= link_to "<i class=\"iicon social_linkedin\"></i>".html_safe, "https://www.linkedin.com/company/jindal-centre-for-social-innovation"-%>
-								   </li>
 									<li>
 								<%= link_to "<i class=\"iicon social_instagram\"></i>".html_safe, "https://www.instagram.com/jsiein/"-%>
 									</li>
@@ -83,12 +80,8 @@
 												Join thousands of people learning together at FutureLearn's social enterprise program. High quality online education, co-created by JSiE and Middlesex University Business School. Try it for free. 
 											 </p>
 											 <div class="row">
-												<div class="col-md-6">
-												<span class="sub alt-font">Earn a certificate</span>
-												<span class="sub alt-font">Free for Limited Time</span>
-										</div>
-										<div class="col-md-6">
-											<%= link_to "Sign Up Now", "https://www.futurelearn.com/programs/social-enterprise", :class => "btn-xs btn-primary btn-filled" %>
+											<div class="col-md-12 text-center">
+											<%= link_to "Earn a Certificate", "https://www.futurelearn.com/programs/social-enterprise", :class => "btn-xs btn-primary btn-filled" %>
 										</div>
 									</div>
 								</div>
@@ -112,37 +105,28 @@
 											<%= image_tag('sewe.jpg', class: 'background-image', alt: 'Women Empowerment Through Social Enterprise') %>
 										</a>
 										<div class="post-title">
-											<h2>Activist to Entrepreneur: Role of social enterprise in supporting women’s empowerment </h2>
+											<h2>Activist to Entrepreneur:<br> Role of social enterprise in supporting women’s empowerment </h2>
 											<p>
 												 This research looks at mutually reinforcing linkage between women’s empowerment and social enterprise across five countries: the UK, the United States, Brazil, India, and Pakistan.  
 											</p>
 											<div class="row">
-											<div class="col-md-6">
-												<span class="sub alt-font">Research Publication</span>
-												<span class="sub alt-font"></span>
-											</div>
-											<div class="col-md-6">
-											<%= link_to "Learn More", "https://www.britishcouncil.org/society/social-enterprise/news-events/activist-entrepreneur-role-social-enterprise-supporting-women", :class => "btn-xs btn-primary btn-filled" %>
+											<div class="col-md-12 text-center">
+											<%= link_to "Research Publication", "https://www.britishcouncil.org/activist-entrepreneur-role-social-enterprise-supporting-women%E2%80%99s-empowerment", :class => "btn-xs btn-primary btn-filled" %>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-						<div class="col-md-4 col-sm-6 blog-masonry-item startup">
-								<div class="item-inner">
-									<%= image_tag('climate.jpg', class: 'background-image', alt: 'Artificial Intelligence Combating Climate Change') %>
-										<div class="post-title">
-											<h2>Can Artificial Intelligence Help us Combat Climate Change?</h2>
-											<p>
-												We are partnering with IRIS.ai to host a 'scithon' (Science Hackathon) and innovation challenge in Delhi in 2017. 
+								<div class="col-md-4 col-sm-6 blog-masonry-item startup">
+								<div class="item-inner video-post">
+									<iframe src="https://www.youtube.com/embed/pJn0Lzwng4I"></iframe>
+									<div class="post-title">
+										<h2>Sonipat Social Innovation Challenge</h2>
+										<p> We brought together students from universities and colleges around Sonipat to brainstorm creative solutions to local community challenges.
 											</p>
-											<div class="row">
-											<div class="col-md-6">
-												<span class="sub alt-font">Innovation Challenge</span>
-												<span class="sub alt-font"></span>
-											</div>
-											<div class="col-md-6">
-											<%= link_to "Learn More", "https://blog.jsie.in/can-artificial-intelligence-help-us-combat-climate-change-67b590f25ec8#.ymsogn355", :class => "btn-xs btn-primary btn-filled" %>
+										<div class="row">
+										<div class="col-md-12 text-center">
+											<%= link_to "Learn More", "https://blog.jsie.in/sonipat-social-innovation-challenge-e0602f1c245", :class => "btn-xs btn-primary btn-filled" %>
 									</div>
 								</div>
 							</div>
@@ -158,17 +142,31 @@
 												 Social entrepreneurs help build a world we want to to live in. What is unique about their personality? Help us figure it out. 
 											</p>
 											<div class="row">
-											<div class="col-md-6">
-												<span class="sub alt-font">Personality Survey</span>
-												<span class="sub alt-font"></span>
-											</div>
-											<div class="col-md-6">
+											<div class="col-md-12 text-center">
 											<%= link_to "Take the Survey", "https://jsie.typeform.com/to/tH1Wwc", :class => "btn-xs btn-primary btn-filled" %>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+										              <div class="col-md-4 col-sm-6 blog-masonry-item startup">
+                                <div class="item-inner">
+                                            <%= image_tag('foodrocket.jpg', class: 'background-image', alt: 'FoodRocket - Anish Krishnan') %>
+                                        </a>
+                                        <div class="post-title">
+                                            <h2>FoodRocket - Anish Krishnan</h2>
+                                            <p>
+                                             How a second year law student started a food delivery service in 6 days.
+                                            </p>
+                                            <div class="row">
+                                            <div class="col-md-12 text-center">
+                                            <%= link_to "Read the Story", "https://medium.com/startup-academy-by-jsie/foodrocket-how-a-second-year-student-started-a-food-delivery-service-in-6-days-933aa1e348eb", :class => "btn-xs btn-primary btn-filled" %>
+                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 							<div class="col-md-4 col-sm-6 blog-masonry-item startup">
 								<div class="item-inner">
 											<%= image_tag('isic9.jpg', class: 'background-image', alt: 'ISIC-15') %>
@@ -177,13 +175,8 @@
 											<p>
 												The International Social Innovation Challenge (ISIC-15), was a “collab-etiton” bringing together top students from India, Pakistan and the UK to design solutions to the pressing global social challenge of empowering women through safer communities.
 											</p>
-											<div class="row">
-											<div class="col-md-6">
-											<span class="sub alt-font">Innovation </span>
-											<span class="sub alt-font">Challenge</span>
-										
-											</div>
-											<div class="col-md-6">
+											<div class="row">										
+											<div class="col-md-12 text-center">
 											<%= link_to "Learn More", "http://isic15.jsie.in/", :class => "btn-xs btn-primary btn-filled" %>
 									</div>
 								</div>
@@ -196,11 +189,7 @@
 									<div class="post-title">
 										<h2>Business Doing Good</h2>
 										<div class="row">
-											<div class="col-md-6">
-											<span class="sub alt-font">Free</span>
-											<span class="sub alt-font">Online Course</span>
-										</div>
-										<div class="col-md-6">
+										<div class="col-md-12 text-center">
 											<%= link_to "Sign up", "https://www.futurelearn.com/courses/social-enterprise-business-doing-good", :class => "btn-xs btn-primary btn-filled" %>
 									</div>
 								</div>
@@ -214,11 +203,7 @@
 									<div class="post-title">
 										<h2>Turning Ideas into Action</h2>
 										<div class="row">
-											<div class="col-md-6">
-											<span class="sub alt-font">Free</span>
-											<span class="sub alt-font">Online Course</span>
-										</div>
-										<div class="col-md-6">
+										<div class="col-md-12 text-center">
 											<%= link_to "Sign up", "https://www.futurelearn.com/courses/social-enterprise-idea-action", :class => "btn-xs btn-primary btn-filled" %>
 									</div>
 								</div>
@@ -235,11 +220,7 @@
 												 This research aims to increase our understanding of personality traits of successful social entrepreneurs. 
 											</p>
 											<div class="row">
-											<div class="col-md-6">
-												<span class="sub alt-font">Research Project</span>
-												<span class="sub alt-font"></span>
-											</div>
-											<div class="col-md-6">
+											<div class="col-md-12 text-center">
 											<%= link_to "Learn More", "https://blog.jsie.in/is-there-a-social-entrepreneur-personality-3f75503a311d#.60h7jsq9d", :class => "btn-xs btn-primary btn-filled" %>
 									</div>
 								</div>
@@ -252,11 +233,7 @@
 									<div class="post-title">
 										<h2>Growing a Sustainable Business</h2>
 										<div class="row">
-											<div class="col-md-6">
-											<span class="sub alt-font">Free</span>
-											<span class="sub alt-font">Online Course</span>
-										</div>
-										<div class="col-md-6">
+										<div class="col-md-12 text-center">
 											<%= link_to "Sign up", "https://www.futurelearn.com/courses/social-enterprise-sustainable-business", :class => "btn-xs btn-primary btn-filled" %>
 									</div>
 								</div>
@@ -279,7 +256,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
-								<h1 class="text-white">A Social Innovation Lab in North India</h1>
+								<h1 class="text-white">An award winning social impact centre <br> in North India</h1>
 							</div>
 						</div>
 <!-- Begin MailChimp Signup Form -->
