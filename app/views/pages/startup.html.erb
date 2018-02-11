@@ -1,4 +1,4 @@
-
+<%= render 'layouts/nav' %> 
 <% content_for :head do %>
   <meta property="og:url"           content="http://www.jsie.in/startup" />
   <meta property="og:type"          content="website" />
@@ -7,57 +7,29 @@
   <meta property="og:image"         content="<%=asset_url('ubi.jpg') %>" />
   <meta property="fb:app_id"        content="1535582636740127" />
   <% end %>
-  <div class="nav-container">
-			<nav class="top-bar centered-logo">
-				<div class="container">
-				
-					<div class="row utility-menu">
-						<div class="col-sm-12">
-							<div class="utility-inner clearfix text-center">
-							<h6>Jindal Centre for Social Innovation + Entrepreneurship 
-							</h6>
-				
-							</div>
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col-sm-12 text-center">
-					<%= link_to "http://www.jsie.in/" do %>
-    				<%= image_tag 'logo.png', class: 'logo logo-dark', alt: 'JSiE'%>
-					<% end %>
-						</div>
-					</div>
-				
-				
-					<div class="row nav-menu">
-					
-						<div class="col-sm-12 columns text-center">
-							<ul class="menu">
-								<li><a href="http://www.jsie.in/about">About</a></li>
-                                <li><a href="http://www.jsie.in/learn">Learn</a></li>
-                                <li><a href="http://www.jsie.in/startup">Startup</a></li>
-                                <li><a href="http://www.jsie.in/research">Research</a></li>
-                                <li><a href="http://blog.jsie.in/" target="_blank">News & Updates</a></li>
-											</ul>	
-										</div>
-								
-								</div>
-					
-					<div class="mobile-toggle">
-						<i class="icon icon_menu"></i>
-					</div>
-					
+  <header class="page-header">
+				<div class="background-image-holder parallax-background">
+					<%= image_tag('learn3.jpg', class: 'background-image', alt: 'JSiE') %>
 				</div>
-				<div class="bottom-border"></div>
-			</nav>
-  <div class="main-container">
+				
+				<div class="container">
+					<div class="row">
+						<div class="spacer-100"></div>
+						<div class="col-sm-12 text-center">
+							<br>
+							<h1 class="text-white space-bottom-small"><br>A startup incubator with a social mission</h1>
+						</div>
+					</div>
+				</div>
+			</header>
+		</div>
+			
         <section class="pure-text-centered">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
                             <span class="sub alt-font">Startup</span>
-                            <h1><strong>A Startup Incubator with a Social Mission</strong></h1>
+                            <h1><strong></strong>Building a startup ecosytem for inclusive growth</h1>
                             <p class="lead">
                             JSiE offers guidance and resources to early-stage startup entrepreneurs. JSiE has dedicated programs for students of OP Jindal Global University and selected entrepreneurs from the Tibetan community in India. Our programs focus on helping entrepreneurs develop a clear and unique business model. We aim to support inclusive growth and development across India through entrepreneurship training. 
                         </div>
