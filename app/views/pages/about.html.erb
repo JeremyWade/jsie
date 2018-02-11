@@ -1,4 +1,4 @@
-<%= render 'layouts/nav' %>
+
 <% content_for :head do %>
   <meta property="og:url"           content="http://www.jsie.in/about" />
   <meta property="og:type"          content="website" />
@@ -7,7 +7,52 @@
   <meta property="og:image"         content="<%=asset_url('intro77.jpg') %>" />
   <meta property="fb:app_id"        content="1535582636740127" />
   <% end %>
-
+<div class="nav-container">
+            <nav class="top-bar centered-logo">
+                <div class="container">
+                
+                    <div class="row utility-menu">
+                        <div class="col-sm-12">
+                            <div class="utility-inner clearfix text-center">
+                            <h6>Jindal Centre for Social Innovation + Entrepreneurship 
+                            </h6>
+                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                    <%= link_to "http://www.jsie.in/" do %>
+                    <%= image_tag 'logo.png', class: 'logo logo-dark', alt: 'JSiE'%>
+                    <% end %>
+                        </div>
+                    </div>
+                
+                
+                    <div class="row nav-menu">
+                    
+                        <div class="col-sm-12 columns text-center">
+                            <ul class="menu">
+                                <li> <%= link_to "About", about_path %></li>
+                                <li> <%= link_to "Learn", learn_path %></li>
+                                <li> <%= link_to "Startup", startup_path %></li>
+                                <li> <%= link_to "Research", research_path %></li>
+                                <li><a href="http://blog.jsie.in/" target="_blank">News & Updates</a></li>
+                                
+                            
+                                            </ul>   
+                                        </div>
+                                
+                                </div>
+                    
+                    <div class="mobile-toggle">
+                        <i class="icon icon_menu"></i>
+                    </div>
+                    
+                </div>
+                <div class="bottom-border"></div>
+            </nav>
         <div class="main-container">
         <section class="pure-text-centered">
                 <div class="container">
