@@ -1,0 +1,156 @@
+<%= render 'layouts/nav' %> 
+ <% content_for :head do %>
+  <meta property="og:url"           content="http://www.jsie.in/research" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Research" />
+  <meta property="og:description"   content="The Jindal Centre for Social Innovation & Entrepreneurship at O.P. Jindal Global University" />
+  <meta property="og:image"         content="<%=asset_url('jsieface.jpg') %>" />
+  <meta property="fb:app_id"        content="1535582636740127" />
+  <% end %>
+  <header class="page-header">
+                <div class="background-image-holder parallax-background">
+                    <%= image_tag('finance.jpg', class: 'background-image', alt: 'JSiE') %>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="spacer-100"></div>
+                        <div class="col-sm-12 text-center">
+                            <h1 class="text-white space-bottom-small"><br>blockchain for social impact</h1>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <section class="duplicatable-content">
+        						<div class="col-sm-12 text-center">
+								<%= image_tag('bitimpacts.png', class: 'background-image', alt: 'Bitimpact') %>
+							</div>
+						</div>
+			</section>
+         <section class="pure-text-centered">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+                            <p class="lead">
+                                      Bitimpact is an innovation and impact network dedicating to harnessing blockchain technology for social impact. With a decentralized governance model, Bitimpact aims to support builders and creators of  blockchain technology in maximizing their positive social impact. 
+
+                            </p>
+                        </div>
+                    </div>
+        
+                </div>
+            </section>
+                    <section class="strip bg-primary">
+                <div class="container">
+                    <div class="row clearfix">
+                        <div class="col-sm-12 text-center ">
+                            <h3 class="text-white"><strong>Inclusion by Design. Hard-Coded. Bitimpact.</strong> <br></h3>
+                            <%= link_to "Learn More", "https://medium.com/bitimpact-lab", :class => "btn btn-primary btn-white btn-filled" %>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="duplicatable-content">
+            
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h1>Our focus</h1>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="feature feature-icon-large">
+                                <div class="pull-left">
+                                    <i class="icon icon-genius"></i>
+                                </div>
+                                <div class="pull-right">
+                                    <h5>Designing models and metrics for social impact</h5>
+                                    <p>
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6">
+                            <div class="feature feature-icon-large">
+                                <div class="pull-left">
+                                    <i class="icon icon-linegraph"></i>
+                                </div>
+                                <div class="pull-right">
+                                    <h5>Pilot Project implementation support</h5>
+                                    <p>
+                                       
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                  <div class="col-sm-6">
+                            <div class="feature feature-icon-large">
+                                <div class="pull-left">
+                                    <i class="icon icon-desktop"></i>
+                                </div>
+                                <div class="pull-right">
+                                    <h5>Monitoring and Impact Evaluation</h5>
+                                    <p>
+                                    </p>
+                                </div>
+                            </div>
+                       </div>
+                        <div class="col-sm-6">
+                            <div class="feature feature-icon-large">
+                                <div class="pull-left">
+                                    <i class="icon icon-tools-2"></i>
+                                </div>
+                                <div class="pull-right">
+                                    <h5>Innovation Challenge Design & Judging</h5>
+                                    <p>
+                                      
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+            </section>
+            					<header class="signup"> 
+					<div class="background-image-holder parallax-background">
+						
+					</div>
+					
+					<div class="container">
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
+								<h1 class="text-white">Join us as we learn and get notified <br> about new opportunities.</h1>
+							</div>
+						</div>
+<!-- Begin MailChimp Signup Form -->
+
+								<div class="col-md-6 centered">
+								<div class="photo-form-wrapper clearfix">
+								<form action="//jsie.us9.list-manage.com/subscribe/post?u=1d9cee480d11c55b46cafda06&amp;id=9dce774ba4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+								<input type="email" size="50" value="Enter your email" name="EMAIL" class="required email" id="mce-EMAIL" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">						
+									
+								<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div><div>
+								<div class="col-md-6 centered">
+								<input type="submit" value="Stay Updated" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-filled">	
+								</div>
+								</form>
+								</div>
+								<!--End mc_embed_signup-->
+								
+						
+						</div>
+						
+					</div>	
+			</header>
+		</div>
+		 <%= render 'layouts/footer' %>
+	    <script> mixpanel.track("bitimpact");</script>	
+
+

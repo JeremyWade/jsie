@@ -8,53 +8,35 @@
   <meta property="fb:app_id"        content="1535582636740127" />
   <% end %>
 		<div class="main-container">
-			<header class="page-header">
-				<div class="background-image-holder parallax-background">
-					<%= image_tag('jsie.jpg', class: 'background-image', alt: 'JSiE') %>
+					<section class="action-banner overlay">
+				<div class="background-image-holder">
 				</div>
 				
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-12 text-center">
-							<br>
-							<div class="spacer-60"></div>
-							<h1 class="text-white space-bottom-medium">Strengthen tomorrow's leaders. <br> Impact the future. </h1>
-							<%= link_to "Learn more", "#{root_path}#projects", :class => "btn btn-primary btn-filledhome" %>
-						
+						<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+							<h4 class="text-white">Jindal Centre for Social Innovation + Entreprenuership</h4>
+							<h5 class="text-white">An award-winning social impact centre at O.P. Jindal Global University</h5>
 						</div>
 					</div>
 				</div>
+				
+			</section>
+			<header class="product-action">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 col-md-10 col-md-offset-1 text-center">
+							<%= image_tag('impactwords.png', class: 'background-image', alt: 'JSiE') %>
+						</div>
+					</div>
+				</div>	
 			</header>
 		</div>
-			<section class="strip bg-white" id="projects">
-				<div class="container">
-					<div class="row clearfix">
-						<div class="col-sm-3 col-xs-12 pull-left">
-							<a href="http://jgu.edu.in/" target="_blank" ><h5>O.P. Jindal Global University</h5></a>
-						</div>
-						
-						<div class="col-sm-4 col-xs-12 pull-right text-right">
-							<ul class="social-icons">
-								<li>
-								<%= link_to "<i class=\"iicon social_facebook\"></i>".html_safe, "https://www.facebook.com/JSiEin/"-%>
-							    </li>
-								<li>
-								<%= link_to "<i class=\"iicon social_twitter\"></i>".html_safe, "https://twitter.com/jsiein"-%>
-								</li>
-									<li>
-								<%= link_to "<i class=\"iicon social_instagram\"></i>".html_safe, "https://www.instagram.com/jsiein/"-%>
-									</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</section>
 
 		<div class="main-container">
 		<section class="blog-masonry bg-muted">
 				<div class="container">
 					<div class="row">
-						<div class="spacer-50"></div>
 						<div class="col-sm-12 text-center">
 							<ul class="blog-filters">
 								<li data-filter="*" class="active"><span>All</span></li>

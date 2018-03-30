@@ -23,4 +23,6 @@ class PagesController < ApplicationController
   end
   def blog
   end
+  def bitimpact
+  end
 end
