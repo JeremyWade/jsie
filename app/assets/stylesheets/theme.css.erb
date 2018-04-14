@@ -161,7 +161,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
 }
 h2 {
-  font-size: 28px;
+  font-size: 30px;
   line-height: 44px;
   font-weight: 300;
    color: #2a3e51;
@@ -910,8 +910,13 @@ header .btn:last-child {
   z-index: 2;
   background-color: #fa7d00;
 }
-.header-icons {
+.header-icons1 {
   padding: 180px 0px;
+  position: relative;
+  overflow: hidden;
+}
+.header-icons1 {
+  padding: 0px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -1304,6 +1309,7 @@ img.phone-portrait {
   z-index: 1;
   overflow: hidden;
   min-height: 397px;
+  border:1px solid black;
 }
 .feature-box .background-image-holder {
   z-index: 0;
@@ -1322,6 +1328,7 @@ img.phone-portrait {
 
 }
 .feature-box h1 {
+  font-size: 28px;
   margin-bottom: 24px;
 }
 .feature-box .btn {
@@ -1647,6 +1654,13 @@ img.phone-portrait {
 .strip strong {
   font-weight: 600;
 }
+.strip h1 {
+  margin: 0px;
+  position: relative;
+  top: 5px;
+  display: inline-block;
+  font-weight: normal;
+}
 .strip h3 {
   margin: 0px;
   position: relative;
@@ -1880,6 +1894,10 @@ img.phone-portrait {
 .blog-snippet-1 img {
   display: inline-block;
   margin-bottom: 16px;
+}
+.blog-snippet-4 img {
+  display: inline-block;
+  margin-bottom: 0px;
 }
 .blog-snippet-1 h2 {
   margin-bottom: 8px;
@@ -3481,7 +3499,7 @@ footer.short-2 .contact-action:hover {
 }
 .expanding-ul li {
   text-align: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding-bottom: 24px;
   margin-bottom: 24px;
   cursor: pointer;
@@ -3503,7 +3521,7 @@ footer.short-2 .contact-action:hover {
 }
 .expanding-ul .title strong {
   font-weight: 600;
-  color: #333333;
+  color: #fff;
 }
 .expanding-ul .text-content {
   -webkit-transition: all .3s ease;
@@ -3601,7 +3619,8 @@ footer.short-2 .contact-action:hover {
   color: #fff;
 }
 .blog-image-snippet {
-  padding: 160px 0px;
+  padding-bottom: 20px;
+  padding-top: 100px
 }
 .blog-image-snippet .container {
   position: relative;
@@ -3615,7 +3634,8 @@ footer.short-2 .contact-action:hover {
   margin-right: 6px;
 }
 .blog-image-snippet h1 {
-  font-size: 40px;
+  font-size: 34px;
+  line-height: 36px;
   margin-bottom: 16px;
 }
 .blog-image-snippet:before {
