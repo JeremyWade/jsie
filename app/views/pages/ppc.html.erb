@@ -1,0 +1,85 @@
+<%= render 'layouts/nav' %> 
+ <% content_for :head do %>
+  <meta property="og:url"           content="http://www.jsie.in/ppc" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="People, Power & Change" />
+  <meta property="og:description"   content="An executive education program at the Jindal Centre for Social Innovation + Entrepreneurship at O.P. Jindal Global University" />
+  <meta property="og:image"         content="http://www.jsie.in/assets/ppc-178356284781d3b778592e51c583a3552232150731cc025beedc2f6975acba45.jpg" />
+  <meta property="fb:app_id"        content="1535582636740127" />
+  <% end %>
+  <header class="page-header">
+                <div class="background-image-holder parallax-background">
+                    <%= image_tag('ppc.jpg', class: 'background-image', alt: 'JSiE') %>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="spacer-100"></div>
+                        <div class="col-sm-12 text-center">
+                            <h1 class="text-white">People, Power & Change</h1>
+                            <h2 class="text-white">Executive Education Program</h2>
+                              <div class="spacer-20"></div>
+                            <%= link_to "Apply Now", "http://bit.ly/2m8v8is", :class => "btn btn-primary btn-white btn-filled" %>
+                            <%= link_to "Learn More", "https://drive.google.com/file/d/1kMdmca-7y9zVm8CGnvZq0PVOBWShhE3A/view?usp=sharing", :class => "btn btn-primary btn-white btn-filled" %>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+         <section class="pure-text-centered">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+                            <h4> Community Organising for Leadership and Social Action</h4>
+                            <p class="lead">
+                                     The People, Power & Change (PPC) program is a 10 week journey designed to empower young leaders, civic associations, advocacy groups, and social movements by teaching them how to organize communities, drive change through campaigning and leadership development across issues of social-economic-political significance. 
+
+                            </p>
+                            <h4>Organize to make tomorrow better than today.</h4>
+                            <p>
+                                The People, Power & Change program (PPC) program is built on the value based framework of community organizing, which was developed by Professor Marshall Ganz from Harvard Kennedy School and also replicated in President Obama’s winning election campaigns. Community organizing has proven successful in both political and social change, and through this Program, you will learn to develop effective project design, strategy and narrative skills to help achieve size and scale needed to win a campaign. PPC by Jindal Centre for Social Innovation + Entrepreneurship and Haiyya is a 10 week journey with experienced grassroots coaches and mentors, learning new skills and concepts that will escalate your leadership as a changemaker.</p>
+                                <h4>Program Delivery Partner</h4>
+                                <div class="col-sm-12">
+                                <%= link_to image_tag("haiyya.jpeg", :target => "_blank", :alt => "Haiyya"), 'https://haiyya.in/' %>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </section>
+            	<header class="signup"> 
+					<div class="background-image-holder parallax-background">
+						
+					</div>
+					
+					<div class="container">
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
+								<h1 class="text-white">An award winning social impact centre <br> in North India</h1>
+							</div>
+						</div>
+<!-- Begin MailChimp Signup Form -->
+
+								<div class="col-md-6 centered">
+								<div class="photo-form-wrapper clearfix">
+								<form action="//jsie.us9.list-manage.com/subscribe/post?u=1d9cee480d11c55b46cafda06&amp;id=9dce774ba4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+								<input type="email" size="50" value="Enter your email" name="EMAIL" class="required email" id="mce-EMAIL" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">						
+									
+								<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div><div>
+								<div class="col-md-6 centered">
+								<input type="submit" value="Stay Updated" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-filled">	
+								</div>
+								</form>
+								</div>
+								<!--End mc_embed_signup-->
+								
+						
+						</div>
+						
+					</div>	
+			</header>
+		</div>
+		 <%= render 'layouts/footer' %>
+	    <script> mixpanel.track("ppc");</script>	

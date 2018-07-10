@@ -25,4 +25,6 @@ class PagesController < ApplicationController
   end
   def bitimpact
   end
+  def ppc
+  end
 end
