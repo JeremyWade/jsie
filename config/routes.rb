@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get "about/jeremywade" => "pages#jeremywade"
   get "about/isabelsalovaara" => "pages#isabelsalovaara"
   get "about/mukulkumar" => "pages#mukulkumar"
+  get "about/careers" => "pages#careers"
   get "startupacademy" => "pages#startupacademy"
   get "bitimpact" => "pages#bitimpact"
   get "ppc" => "pages#ppc"

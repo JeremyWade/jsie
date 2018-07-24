@@ -27,4 +27,6 @@ class PagesController < ApplicationController
   end
   def ppc
   end
+  def careers
+  end
 end
