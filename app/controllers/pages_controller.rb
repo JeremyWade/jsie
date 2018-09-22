@@ -29,4 +29,8 @@ class PagesController < ApplicationController
   end
   def careers
   end
+  def impactislamabad
+  end
+  def investmentforgood
+  end
 end

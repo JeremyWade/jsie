@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   get "bitimpact" => "pages#bitimpact"
   get "ppc" => "pages#ppc"
   get "impactislamabad" => "pages#impactislamabad"
+  get "investmentforgood" => "pages#investmentforgood"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
