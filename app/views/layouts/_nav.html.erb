@@ -1,38 +1,47 @@
 <div class="nav-container">
 			<nav class="top-bar centered-logo">
 				<div class="container">
-						<div class="col-xs-12 text-center">
+						<div class="col-xs-12">
 					<%= link_to "http://www.jsie.in/" do %>
     				<%= image_tag 'logo.png', class: 'logo logo-dark', alt: 'JSiE'%>
+					<% end %>
+						<%= link_to "http://www.jsie.in/" do %>
+    				<%= image_tag 'jsietext.png', class: 'logo logo-dark', alt: 'JSiE'%>
+					<% end %>
+					<%= link_to "http://www.jsie.in/" do %>
+    				<%= image_tag 'jgulogo.png', class: 'logo logo-dark-float', alt: 'JSiE'%>
 					<% end %>
 						</div>
 					<div class="row utility-menu">
 						<div class="col-sm-12">
 							<div class="utility-inner clearfix text-center">
-							<h2>Jindal Centre for Social Innovation + Entrepreneurship
+							<h2>
 							</h2>
 				
 							</div>
 							
 						</div>
 					</div>
-					
-	
 
-				
-				
+	
 					<div class="row nav-menu">
 					
 						<div class="col-sm-12 columns text-center">
 							<ul class="menu">
-							    <li> <%= link_to "About", "http://www.jsie.in/about" %></li>
-								<li> <%= link_to "Learn", learn_path %></li>
-								<li> <%= link_to "Startup", "http://www.jsie.in/startup" %></li>
+								<li class="has-dropdown"> <%= link_to "About", "http://www.jsie.in/about" %> 
+											  
+								</li>
+								<li class="has-dropdown"> <%= link_to "Online Courses", "#" %> 
+											<ul class="subnav">
+												<li><%= link_to "Impact Investing", "https://www.futurelearn.com/courses/impact-investing" %></li>
+												<li><%= link_to "Community Organizing", "http://www.jsie.in/learn/lac" %></li>
+												<li><%= link_to "Social Enterprise", "http://www.jsie.in/about/partners" %></li>
+											</ul>
+								</li>
 								<li> <%= link_to "Research", "http://www.jsie.in/research" %></li>
-								<li><a href="http://blog.jsie.in/" target="_blank">News & Updates</a></li>
-								
-							
-											</ul>	
+								<li><a href="http://blog.jsie.in/" target="_blank">Blog</a></li>
+								</ul>	
+					
 										</div>
 								
 								</div>

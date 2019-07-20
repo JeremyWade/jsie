@@ -33,4 +33,10 @@ class PagesController < ApplicationController
   end
   def investmentforgood
   end
+  def people
+  end
+  def impact
+  end
+  def lac
+  end
 end

@@ -4,19 +4,24 @@ Rails.application.routes.draw do
   get "about" => "pages#about"
   get "research" => "pages#research"
   get "learn" => "pages#learn"
+  get "learn/lac" => "pages#lac"
   get "startup" => "pages#startup"
   get "lec" => "pages#lec"
   get "blog" => "pages#blog"
   get "research/seq" => "pages#seq"
   get "about/jeremywade" => "pages#jeremywade"
   get "about/isabelsalovaara" => "pages#isabelsalovaara"
-  get "about/mukulkumar" => "pages#mukulkumar"
+  get "about/people/mukulkumar" => "pages#mukulkumar"
   get "about/careers" => "pages#careers"
+  get "about/people" => "pages#people"
+  get "about/partners" => "pages#partners"
   get "startupacademy" => "pages#startupacademy"
   get "bitimpact" => "pages#bitimpact"
   get "ppc" => "pages#ppc"
   get "impactislamabad" => "pages#impactislamabad"
   get "investmentforgood" => "pages#investmentforgood"
+  get "impact" => "pages#impact"
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

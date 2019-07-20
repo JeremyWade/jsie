@@ -8,9 +8,10 @@
   <meta property="fb:app_id"        content="1535582636740127" />
   <% end %>
 		<div class="main-container">
+					
 			<header class="product-action">
 				<div class="background-image-holder">
-				<%= image_tag('impactback.png', class: 'background-image', alt: 'impact') %>
+				<%= image_tag('abstract.jpg', class: 'background-image', alt: 'impact') %>
 				</div>
 				<div class="container">
 					<div class="row">
@@ -20,14 +21,14 @@
 					</div>
 				</div>	
 			</header>
-		<section class="action-banner overlay">
+			<section class="action-banner overlay">
 				<div class="background-image-holder">
 				</div>
 				
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 text-center">
-							<h2 class="text-white">An award-winning social impact centre at O.P. Jindal Global University</h2>
+							<h2 class="text-white">Accelerating knowledge on social impact and entrepreneurship in India</h2>
 							<div class="col-xs-12">
 							<ul class="social-iconsH">
 								<li>
@@ -46,7 +47,92 @@
 				</div>
 				
 			</section>
+	<section class="no-pad clearfix">
+				<div class="col-md-6 col-sm-12 no-pad">
+				
+					<div class="feature-box">
+					
+						<div class="background-image-holder overlay">
+						<%= image_tag('learn8.jpg', class: 'background-image', alt: 'Tibetan') %>
+						</div>
+						
+						<div class="inner">
+							<span class="alt-font text-white">Online Courses</span>
+							<h1 class="text-white">Education for Sustainable Development </h1>
+							<p class="text-white">
+								Learning better systems of resource distribution and equitable living to lead the way on innovation for sustainable development. 
+							</p>
+							<a href="http://www.jsie.in/learn" class="btn btn-primary btn-filled2">Learn More</a>
+						</div>
+					</div>
+				</div>
+			
+				
+				<div class="col-md-6 col-sm-12 no-pad">
+				
+					<div class="feature-box">
+					
+						<div class="background-image-holder overlay">
+							<%= image_tag('jsie.jpg', class: 'background-image', alt: 'Tibetan') %>
+						</div>
+						
+						<div class="inner">
+							<span class="alt-font text-white">Startup Incubation</span>
+							<h1 class="text-white">Advancing Entrepreneurship</h1>
+							<p class="text-white">
+								Building entrepreneurship capacity in India through incubation, training and executive education programs. 
+							</p>
+							<a href="http://www.jsie.in/startup" class="btn btn-primary btn-filled2">Learn More</a>
+						</div>
+					</div>
+				</div>
+				
+			</section>
 
+			
+			<section class="no-pad clearfix">
+					<div class="col-md-6 col-sm-12 no-pad">
+				
+					<div class="feature-box">
+					
+						<div class="background-image-holder overlay">
+							<%= image_tag('intro77.jpg', class: 'background-image', alt: 'Tibetan') %>
+						</div>
+						
+						<div class="inner">
+							<span class="alt-font text-white">Research</span>
+							<h1 class="text-white">Social Impact Knowledge</h1>
+							<p class="text-white">
+								Accelerating knowledge on social impact in emerging economies through national and global research projects and partnerships.
+							</p>
+							<a href="http://www.jsie.in/research" class="btn btn-primary btn-filled2">Learn More</a>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="col-md-6 col-sm-12 no-pad">
+				
+					<div class="feature-box">
+					
+						<div class="background-image-holder overlay">
+							<%= image_tag('partners.jpg', class: 'background-image', alt: 'Tibetan') %>
+						</div>
+						
+						<div class="inner">
+							<span class="alt-font text-white">Partner</span>
+							<h1 class="text-white">Partnerships for Change</h1>
+							<p class="text-white">
+								JSiE joins a global network of partners advancing social impact and entreprenuership globally. 
+							</p>
+							<a href="http://www.jsie.in/about" class="btn btn-primary btn-filled2">Learn More</a>
+						</div>
+					</div>
+					
+				</div>
+				</div>
+				
+			</section>
 		<div class="main-container">
 		<section class="blog-masonry bg-muted">
 				<div class="container">
@@ -54,9 +140,10 @@
 						<div class="col-sm-12 text-center">
 							<ul class="blog-filters">
 								<li data-filter="*" class="active"><span>All</span></li>
-								<li data-filter=".learn"><span>Learn</span></li>
-								<li data-filter=".startup"><span>Startup</span></li>
+								<li data-filter=".learn"><span>Online Courses</span></li>
+							<li data-filter=".startup"><span>Startup Incubation</span></li>
 								<li data-filter=".research"><span>Research</span></li>
+								<li data-filter=".partner"><span>Partnerships</span></li>
 							</ul>
 						</div>
 					</div>
@@ -65,8 +152,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="blog-masonry-container">
-
-								<div class="col-md-4 col-sm-6 blog-masonry-item startup">
+					  				<div class="col-md-4 col-sm-6 blog-masonry-item startup">
 								<div class="item-inner">
 											<%= image_tag('intro88.jpg', class: 'background-image', alt: 'Tibetan') %>
 										</a>
@@ -77,44 +163,31 @@
 											 </p>
 											 <div class="row">
 											<div class="col-md-12 text-center">
-											<%= link_to "Read the Story", "https://www.firstpost.com/business/tibetans-in-exile-are-trying-their-hand-at-entrepreneurship-hope-that-startups-will-help-preserve-culture-heritage-4429041.html", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
+											<%= link_to "Read the Story", "https://yourstory.com/2019/06/jindal-social-innovation-tibetan-refugee-entrepreneur", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
 											<%= link_to "Our Program", "https://blog.jsie.in/tibetan-entrepreneurship-development-67124803e730", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						
-							
-							<div class="col-md-4 col-sm-6 blog-masonry-item startup">
-								<div class="item-inner quote-post">
-									<div class="post-title">
-											<h1>A startup incubator with a social mission</h1>
-											 <div class="row">
-											<div class="col-md-12 text-center">
-											<%= link_to "Learn More", "http://www.jsie.in/startup", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
-									</div>
-								</div>
-							</div>
-						</div>
-					  </div>
 					  		<div class="col-md-4 col-sm-6 blog-masonry-item learn">
 								<div class="item-inner">
-											<%= image_tag('ppc.jpg', class: 'background-image', alt: 'People, Power & Change') %>
+											<%= image_tag('people1.jpg', class: 'background-image', alt: 'Leadership, Action and Change') %>
 										</a>
 										<div class="post-title">
-											<h2>People, Power & Change: Executive Education Program</h2>
+											<h2>Leadership, Action and Change: Online Executive Education Program</h2>
 											<p>
-												People, Power & Change is a 10-week journey with experienced grassroots coaches and mentors, learning new skills and concepts that will escalate your leadership as a change-maker. 
+												Leadership, Action and Change is a 4-month online executive education program on community organizing with experienced grassroots coaches and mentors.
 											 </p>
 											 <div class="row">
 											<div class="col-md-12 text-center">
-											<%= link_to "Apply Now", "http://www.jsie.in/ppc", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
+											<%= link_to "Apply Now", "http://www.jsie.in/learn/lac", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+			
 					<div class="col-md-4 col-sm-6 blog-masonry-item research">
 								<div class="item-inner">
 											<%= image_tag('sewe.jpg', class: 'background-image', alt: 'Women Empowerment Through Social Enterprise') %>
@@ -133,12 +206,12 @@
 						</div>
 					</div>
 
-								<div class="col-md-4 col-sm-6 blog-masonry-item research startup learn">
+								<div class="col-md-4 col-sm-6 blog-masonry-item research">
 								<div class="item-inner">
 											<%= image_tag('bpact.jpg', class: 'background-image', alt: 'Bitimpact') %>
 										</a>
 										<div class="post-title">
-											<h2>Bitimpact: Blockchain For Social Impact</h2>
+											<h2>Blockchain For Social Impact</h2>
 											<p>
 												Bitimpact is an innovation and impact network started by JSiE dedicated to supporting the implementation of blockchain technology for social impact in India. Bitimpact aims to support builders and creators of blockchain technology in maximising their positive social impact.
 											 </p>
@@ -150,6 +223,18 @@
 								</div>
 							</div>
 						</div>
+							<div class="col-md-4 col-sm-6 blog-masonry-item startup">
+								<div class="item-inner quote-post">
+									<div class="post-title">
+											<h1>A startup incubator with a social mission</h1>
+											 <div class="row">
+											<div class="col-md-12 text-center">
+											<%= link_to "Learn More", "http://www.jsie.in/startup", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
+									</div>
+								</div>
+							</div>
+						</div>
+					  </div>
 						<div class="col-md-4 col-sm-6 blog-masonry-item learn">
 								<div class="item-inner">
 											<%= image_tag('futurelearn.jpg', class: 'background-image', alt: 'FutureLearn Social Enterprise Program') %>
@@ -168,21 +253,7 @@
 							</div>
 						</div>
 
-								<div class="col-md-4 col-sm-6 blog-masonry-item startup">
-								<div class="item-inner video-post">
-									<iframe src="https://www.youtube.com/embed/pJn0Lzwng4I"></iframe>
-									<div class="post-title">
-										<h2>Sonipat Social Innovation Challenge</h2>
-										<p> We brought together students from universities and colleges around Sonipat to brainstorm creative solutions to local community challenges.
-											</p>
-										<div class="row">
-										<div class="col-md-12 text-center">
-											<%= link_to "Learn More", "https://blog.jsie.in/sonipat-social-innovation-challenge-e0602f1c245", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+
 							<div class="col-md-4 col-sm-6 blog-masonry-item research">
 								<div class="item-inner">
 											<%= image_tag('seq8.jpg', class: 'background-image', alt: 'Social Entrepreneur Personality') %>
@@ -200,40 +271,7 @@
 							</div>
 						</div>
 					</div>
-										              <div class="col-md-4 col-sm-6 blog-masonry-item startup">
-                                <div class="item-inner">
-                                            <%= image_tag('foodrocket.jpg', class: 'background-image', alt: 'FoodRocket - Anish Krishnan') %>
-                                        </a>
-                                        <div class="post-title">
-                                            <h2>FoodRocket - Anish Krishnan</h2>
-                                            <p>
-                                             How a second year law student started a food delivery service in 6 days.
-                                            </p>
-                                            <div class="row">
-                                            <div class="col-md-12 text-center">
-                                            <%= link_to "Read the Story", "https://medium.com/startup-academy-by-jsie/foodrocket-how-a-second-year-student-started-a-food-delivery-service-in-6-days-933aa1e348eb", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
-                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-							<div class="col-md-4 col-sm-6 blog-masonry-item startup">
-								<div class="item-inner">
-											<%= image_tag('isic9.jpg', class: 'background-image', alt: 'ISIC-15') %>
-										<div class="post-title">
-											<h2>International Social Innovation Challenge</h2>
-											<p>
-												The International Social Innovation Challenge (ISIC-15), was a “collab-etiton” bringing together top students from India, Pakistan and the UK to design solutions to the pressing global social challenge of empowering women through safer communities.
-											</p>
-											<div class="row">										
-											<div class="col-md-12 text-center">
-											<%= link_to "Learn More", "http://isic15.jsie.in/", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
-									</div>
-								</div>
-							</div>
-                       </div>
-					</div>
+						
 							<div class="col-md-4 col-sm-6 blog-masonry-item learn">
 								<div class="item-inner video-post">
 									<iframe src="https://www.youtube.com/embed/_333j3KPZeM"></iframe>
