@@ -819,7 +819,21 @@ nav hr {
   background-color: #317b9d;
   left: 0;
 }
+.overlay1:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  content: '';
+  z-index: 2;
+  background-color: #293d51;
+  left: 0;
+}
 .overlay .container {
+  position: relative;
+  z-index: 3;
+}
+.overlay1 .container {
   position: relative;
   z-index: 3;
 }
