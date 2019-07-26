@@ -1,96 +1,164 @@
 <%= render 'layouts/nav' %> 
 <% content_for :head do %>
-  <meta property="og:url"           content="http://www.jsie.in/about" />
+  <meta property="og:url"           content="http://www.jsie.in/about/people" />
   <meta property="og:type"          content="website" />
-  <meta property="og:title"         content="About the Jindal Centre for Social Innovation + Entrepreneurship" />
-  <meta property="og:description"   content="An award winning social impact centre within OP Jindal Global University" />
+  <meta property="og:title"         content="People | JSiE" />
+  <meta property="og:description"   content="The Jindal Centre for Social Innovation + Entrepreneurship at O.P. Jindal Global University" />
   <meta property="og:image"         content="http://www.jsie.in/assets/impact1-bef86849769a8abc77b09d57364608b2e861ede29e2feca2fe795faeb5ad1348.png" />
   <meta property="fb:app_id"        content="1535582636740127" />
   <% end %>
-        
-         <div class="spacer-100"></div>
-        <div class="spacer-100"></div>
+   <header class="page-header1">
+                <div class="background-image-holder parallax-background">
+                    <%= image_tag('backgroundblue.png', class: 'background-image', alt: 'JSiE') %>
+                </div>
+              </header>
                     <section class="text-center">
                 <div class="container">
-                      <div class="row">
-                        <div class="col-md-8 col-md-offset-2 text-center">
-                            <h1>Our team of faculty, students and advisors</h1>
-                        </div>
-                    </div>
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="feature feature-9">    
                                 <%= link_to about_jeremywade_path do %>
                                 <%= image_tag('jwade.jpg', class: 'background-image', alt: 'Jeremy Wade') %>
                                 <% end %>
-                                <h2>Jeremy Wade</h2> <p class="text-center">Founding Director, JSiE</p> </div>
+                                <h2>Jeremy Wade</h2> <p class="text-center">Founding Director, JSiE</p> 
+                                  <div class="spacer-10"></div>
+                              </div>
                         </div>
-                        <div class="col-sm-4">
+                         <div class="col-sm-8">
+                            <p class="lead">
+                  <b>Jeremy founded the Jindal Centre for Social Innovation + Entrepreneurship in 2014. Jeremy is an Assistant Professor of Practice at the Jindal Global Business School, O.P. Jindal Global University.</b> An online course creator and educator,  over 50,000 students from 159 countries have enrolled in his online courses on sustainable business and impact investing. Since 2015, Jeremy has led the incubation program for Tibetan refugee entrepreneurs living in India in partnership with the Central Tibetan Administration. Jeremy has published articles in the Journal of Social Entrepreneurship, Journal of Small Business & Entrepreneurship, and Diaspora, Indigenous, and Minority Education. </p>  
+
+                  <p class="lead">
+                  Originally from the United States, he began his career at the U.S. Department of the Treasury, where he helped supervise a portfolio of financial institutions in the aftermath of the Global Financial Crisis from 2008-2012.
+
+                </p>
+
+
+                </div>
+              </div>
+                   <div class="spacer-40"></div>
+          <section class="strip bg-primary">
+        <div class="container">
+          <div class="row clearfix">
+            <div class="col-xs-12">
+              <h2 class="text-white"><strong>Academic and Senior Advisors</strong></h2>
+            </div>
+          </div>
+        </div>
+      </section>
+              <div class="spacer-40"></div>
+                        <div class="row">
+                        <div class="col-sm-3">
                             <div class="feature feature-9"> 
-                                <%= image_tag('murthy.jpg', class: 'background-image', alt: 'Robin Kipfer') %>
-                                <h2>Dr. Y.S.R Murthy</h2> <p class="text-center">Professor and Registrar,<br> O.P. Jindal Global University</p> </div>
+                                <%= image_tag('murthy.jpg', class: 'background-image', alt: 'YSR Murthy') %>
+                                <h2>Y.S.R Murthy</h2> <p class="text-center">Professor and Registrar,<br> O.P. Jindal Global University</p>
+                                <div class="spacer-10"></div>
+                         </div>
                         </div>
-                         <div class="col-sm-4">
+                         <div class="col-sm-3">
                                 <div class="feature feature-9"> 
                                <%= image_tag('r.jpg', alt: 'R Sudarshan') %>
-                                <h2>R Sudarshan</h2> <p class="text-center">Professor and Dean,<br> Jindal School of Government & Public Policy</p> </div>
+                                <h2>R Sudarshan</h2> <p class="text-center">Professor and Dean,<br> Jindal School of Government & Public Policy</p> 
+                                <div class="spacer-10"></div>
+
+                              </div>
                         </div>
-                        </div>
-                        
-                         <div class="row">
-                              <div class="spacer-40"></div>
-                    </div>
-                        <div class="col-sm-4">
+                          <div class="col-sm-3">
                             <div class="feature feature-9"> 
                                <%= image_tag('rajesh.png', alt: 'Rajesh Chakrabarti') %>
-                                <h2>Dr. Rajesh Chakrabarti</h2> <p class="text-center">Professor and Dean, Jindal Global Business School</p> </div>
+                                <h2>Rajesh Chakrabarti</h2> <p class="text-center">Professor and Dean,<br> Jindal Global Business School</p> 
+                                <div class="spacer-10"></div>
+                              </div>
                         </div>
-                        <div class="col-sm-4">
+                        
+                        <div class="col-sm-3">
+                            <div class="feature feature-9"> 
+                                <%= image_tag('kathleen.jpg', alt: 'Kathleen Modrowski') %>
+                                <h2>Kathleen Modrowski</h2> <p class="text-center">Professor and Dean,<br> Jindal School for Liberal Arts & Humanities</p>
+                                <div class="spacer-10"></div>
+
+                                 </div>
+                            </div>
+                          </div>
+                          <div class="spacer-40"></div>
+                             <div class="row">
+                             <div class="col-sm-3">
                             <div class="feature feature-9"> 
                                 <%= link_to about_people_mukulkumar_path do %>
                                 <%= image_tag('mk.jpg', alt: 'Mukul Kumar') %>
                                 <% end %>
-                                <h2>Mukul Kumar</h2> <span>Senior Advisor</span> </div>
+                                <h2>Mukul Kumar</h2> 
+                                <p class="text-center">Senior Advisor</p>
+                                <div class="spacer-10"></div>
                             </div>
-                            <div class="col-sm-4">
+                          </div>
+                            <div class="col-sm-3">
                             <div class="feature feature-9"> 
                                 <%= image_tag('sarita.jpg', alt: 'Sarita Gupta') %>
                                 <h2>Sarita Gupta</h2> <p class="text-center">Senior Advisor</p> </div>
                             </div>
-                        <div class="row">
                               <div class="spacer-40"></div>
-                         <div class="col-sm-4">
+                      <section class="strip bg-primary">
+                      <div class="container">
+                     <div class="row clearfix">
+                   <div class="col-xs-12">
+                   <h2 class="text-white"><strong>Fellows</strong></h2>
+            </div>
+          </div>
+        </div>
+      </section>
+       <div class="spacer-40"></div>
+      <div class="row">
+         <div class="col-sm-3">
+           <div class="feature feature-9"> 
+                                <%= image_tag('rup.jpg', alt: 'Rupinder Bhalla') %>
+                                <h2>Rupinder Bhalla</h2> <p class="text-center">Teaching Fellow</p>
+                                    <div class="spacer-10"></div>
+                                 </div>
+                            </div>
+                             <div class="col-sm-3">
+                             <div class="feature feature-9"> 
+                                <%= image_tag('nit.jpg', alt: 'Nitiya') %>
+                                <h2>Nitiya Devaraj</h2> <p class="text-center">Strategic Communication Fellow</p> 
+                                <div class="spacer-10"></div></div>
+                            </div>
+                              <div class="col-sm-3">
+                             <div class="feature feature-9"> 
+                                <%= image_tag('ron.png', alt: 'Ronita Choudhuri') %>
+                                <h2>Ronita Choudhuri</h2> <p class="text-center">Adjunct Faculty,<br> Jindal Global Business School</p> 
+                                <div class="spacer-10"></div></div>
+                            </div>
+                             <div class="row">
+                                      <div class="spacer-40"></div>
+                      <section class="strip bg-primary">
+                      <div class="container">
+                     <div class="row clearfix">
+                   <div class="col-xs-12">
+                   <h2 class="text-white"><strong>Student Interns</strong></h2>
+            </div>
+          </div>
+        </div>
+      </section>
+       <div class="spacer-40"></div>
+                         <div class="col-sm-3">
                              <div class="feature feature-9"> 
                                <%= image_tag('shine.jpg', alt: 'Shine Varghese') %>
                                 <h2>Shine Varghese</h2>
-                                <p class="text-center">Research Assistant</p><br>
+                                <p class="text-center">Coordinator, Startup JGU</p>
+                                  <div class="spacer-10"></div>
                             </div>
                         </div>
                         
-                         <div class="col-sm-4">
+                         <div class="col-sm-3">
                            <div class="feature feature-9"> 
-                                <%= image_tag('anish.jpg', alt: 'Anish Krishnan') %>
-                                <h5>Anish Krishnan</h5>
-                                <span>Research Assistant</span><br>
+                                <%= image_tag('aditya.jpg', alt: 'Aditya Dey') %>
+                                <h2>Aditya Dey </h2>
+                                <p class="text-center">Research Assistant</p>  
+                                <div class="spacer-10"></div>
                             </div>
                         </div>
-                        
-                         <div class="col-sm-4">
-                            <div class="feature feature-9"> 
-                               <%= image_tag('shine.jpg', alt: 'Shine Varghese') %>
-                                <h5>Shine Varghese</h5>
-                                <span>Research Assistant</span><br>
-                            </div>
-                        </div>
-                             <div class="row">
-                              <div class="spacer-40"></div>
-                         <div class="col-sm-4">
-                            <div class="feature feature-9"> 
-                                <%= image_tag('mishaal.jpg', alt: 'Mishaal Nathani') %>
-                                <h5>Mishaal Nathani</h5>
-                                <span>Research Assistant</span><br>
-                            </div>
-                        </div>
+                      
+                  
                    </div>
                     </div>
                     

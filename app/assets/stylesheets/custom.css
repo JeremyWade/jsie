@@ -544,3 +544,20 @@ nav.shift ul li a:hover:after {
   padding-top: 121px;
   padding-bottom: 121px;
 }
+.text-nav1 {
+    font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: .90rem;
+  text-transform: uppercase;
+  color: #2a3d51;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+  padding-bottom: 40px;
+  display: inline-block;
+  line-height: 14px;
+  margin-bottom: -20px;
+}
+.text-nav1:hover {
+  color: #333333;
+}
