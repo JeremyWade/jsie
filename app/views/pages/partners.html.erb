@@ -1,98 +1,134 @@
 <%= render 'layouts/nav' %> 
 <% content_for :head do %>
-  <meta property="og:url"           content="http://www.jsie.in/about" />
+  <meta property="og:url"           content="http://www.jsie.in/about/partners" />
   <meta property="og:type"          content="website" />
-  <meta property="og:title"         content="About the Jindal Centre for Social Innovation + Entrepreneurship" />
-  <meta property="og:description"   content="An award winning social impact centre within OP Jindal Global University" />
+  <meta property="og:title"         content="Partners | JSiE" />
+  <meta property="og:description"   content="Jindal Centre for Social Innovation + Entrepreneurship at O.P. Jindal Global University" />
   <meta property="og:image"         content="http://www.jsie.in/assets/impact1-bef86849769a8abc77b09d57364608b2e861ede29e2feca2fe795faeb5ad1348.png" />
   <meta property="fb:app_id"        content="1535582636740127" />
   <% end %>
-        
-        <div class="spacer-75"></div>
-		<div class="nav-container">
-		</div>
-		
-		<div class="main-container">
+   <header class="page-header1">
+                <div class="background-image-holder parallax-background">
+                    <%= image_tag('backgroundblue.png', class: 'background-image', alt: 'JSiE') %>
+                </div>
+              </header>
 		<section class="clients">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<p class="lead">Some of our digital learning partners</p>
+							<h2>Our partners in advancing knowledge on social impact and entrepreneurship globally.</h2>
+						</div>
+					</div>
+					  <div class="spacer-40"></div>
+					<div class="row client-row">
+						<div class="row-wrapper">
+							<div class="col-sm-3 text-center">
+								 <%= link_to "https://www.futurelearn.com/partners/jindal-centre",  :target => "_blank" do %>
+                                <%= image_tag('fl.png', class: 'client', alt: 'FutureLearn') %>
+                                <% end %>
+							</div>
+						
+							<div class="col-sm-3 text-center">
+								 <%= link_to "https://www.britishcouncil.lk/programmes/society/social-enterprise-moocs",  :target => "_blank" do %>
+                                <%= image_tag('bc.jpg', class: 'client', alt: 'British Council') %>
+                                <% end %>
+							</div>
+						
+							<div class="col-sm-3 text-center">
+								<%= link_to "https://www.mdx.ac.uk/news/2017/02/business-school-moocs-enable-students-worldwide-to-start-social-enterprises",  :target => "_blank" do %>
+                                <%= image_tag('mid.png', class: 'client', alt: 'Middlesex University') %>
+                                <% end %>
+							</div>
+							<div class="col-sm-3 text-center">
+								<%= link_to "https://mailchi.mp/2528412ad543/asha-impact-quarterly-newsletter-dec-1272853",  :target => "_blank" do %>
+                                <%= image_tag('asha.jpg', class: 'client', alt: 'Asha Impact') %>
+                                <% end %>
+							</div>
 						</div>
 					</div>
 					
 					<div class="row client-row">
 						<div class="row-wrapper">
 							<div class="col-sm-3 text-center">
-								<%= image_tag('bc.jpg', class: 'client', alt: 'JSiE') %>
+								<%= link_to "https://yourstory.com/2019/06/jindal-social-innovation-tibetan-refugee-entrepreneur",  :target => "_blank" do %>
+                                <%= image_tag('tibetan.png', class: 'client', alt: 'Central Tibetan Administration') %>
+                                <% end %>
 							</div>
 						
 							<div class="col-sm-3 text-center">
-								<%= image_tag('mid.png', class: 'client', alt: 'JSiE') %>
+								<%= link_to "https://bloncampus.thehindubusinessline.com/b-school-corner/students-to-design-venture-on-women-safety/article7608088.ece",  :target => "_blank" do %>
+                                <%= image_tag('southampton.png', class: 'client', alt: 'University of Southampton') %>
+                                <% end %>
 							</div>
 						
 							<div class="col-sm-3 text-center">
-								<img alt="client" src="img/client3.png">
+								<%= link_to "http://www.curriculum-magazine.com/jsie-haiyya-executive-education-program-in-leadership-social-action/",  :target => "_blank" do %>
+                                <%= image_tag('haiyyalogo.png', class: 'client', alt: 'Haiyya') %>
+                                <% end %>
 							</div>
-						
+							
 							<div class="col-sm-3 text-center">
-								<img alt="client" src="img/client1.png">
+								<%= link_to "https://jgu.edu.in/jsie-signs-mou-with-duke-universitys-center-for-the-advancement-of-social-entrepreneurship/",  :target => "_blank" do %>
+                                <%= image_tag('duke.png', class: 'client', alt: 'Duke CASE') %>
+                                <% end %>
 							</div>
 						</div>
 					</div>
-					
+						<div class="row client-row">
+						<div class="row-wrapper">
+							<div class="col-sm-3 text-center">
+								 <%= link_to "https://gsgii.org/summit/summit-2018/summit-2018/partners/",  :target => "_blank" do %>
+                                <%= image_tag('gsg.png', class: 'client', alt: 'GSG') %>
+                                <% end %>
+							</div>
+						
+							<div class="col-sm-3 text-center">
+								 <%= link_to "https://about.futurelearn.com/press-releases/jindal-centre-for-social-innovation-entrepreneurship-launches-online-course-on-impact-investing-in-association-with-asha-impact",  :target => "_blank" do %>
+                                <%= image_tag('iic.png', class: 'client', alt: 'Impact Investors Council') %>
+                                <% end %>
+							</div>
+						
+							<div class="col-sm-3 text-center">
+								<%= link_to "https://www.bridgespan.org/insights/library/impact-investing/interview-impact-measurement-and-management",  :target => "_blank" do %>
+                                <%= image_tag('bridgespan.png', class: 'client', alt: 'bridgespan') %>
+                                <% end %>
+							</div>
+							<div class="col-sm-3 text-center">
+								<%= link_to "https://www.andeglobal.org/event/SGBfinance_Jan19",  :target => "_blank" do %>
+                                <%= image_tag('ande.png', class: 'client', alt: 'ANDE') %>
+                                <% end %>
+							</div>
+						</div>
+					</div>
 					<div class="row client-row">
 						<div class="row-wrapper">
 							<div class="col-sm-3 text-center">
-								<img alt="client" src="img/client5.png">
+								 <%= link_to "http://www.gsen.global/members",  :target => "_blank" do %>
+                                <%= image_tag('gsen.png', class: 'client', alt: 'GSEN') %>
+                                <% end %>
 							</div>
 						
 							<div class="col-sm-3 text-center">
-								<img alt="client" src="img/client6.png">
+								 <%= link_to "https://ubi-global.com",  :target => "_blank" do %>
+                                <%= image_tag('ubinetwork.jpg', class: 'client', alt: 'UBI Impact Network') %>
+                                <% end %>
 							</div>
 						
 							<div class="col-sm-3 text-center">
-								<img alt="client" src="img/client7.png">
+								<%= link_to "https://impactmanagementproject.com/about/",  :target => "_blank" do %>
+                                <%= image_tag('imp.png', class: 'client', alt: 'Impact Management Project') %>
+                                <% end %>
 							</div>
-						
 							<div class="col-sm-3 text-center">
-								<img alt="client" src="img/client8.png">
+								<%= link_to "http://www.livinginminca.org/social-enterprise-free-courses-on-future-learn/",  :target => "_blank" do %>
+                                <%= image_tag('livinginminca.png', class: 'client', alt: 'Living in Minca') %>
+                                <% end %>
 							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			
-			<section class="clients-2">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-2 col-sm-4">
-							<img alt="Client Logo" src="img/client1.png">
-						</div>
-						
-						<div class="col-md-2 col-sm-4">
-							<img alt="Client Logo" src="img/client2.png">
-						</div>
-						
-						<div class="col-md-2 col-sm-4">
-							<img alt="Client Logo" src="img/client3.png">
-						</div>
-						
-						<div class="col-md-2 col-sm-4">
-							<img alt="Client Logo" src="img/client4.png">
-						</div>
-						
-						<div class="col-md-2 col-sm-4">
-							<img alt="Client Logo" src="img/client5.png">
-						</div>
-						
-						<div class="col-md-2 col-sm-4">
-							<img alt="Client Logo" src="img/client6.png">
 						</div>
 					</div>
 				</div>
 			</section>
 		</div>
-
+    <%= render 'layouts/footer' %>
 				
         
