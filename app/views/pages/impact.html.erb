@@ -1,9 +1,9 @@
 <%= render 'layouts/nav' %> 
 <% content_for :head do %>
-  <meta property="og:url"           content="http://www.jsie.in/about" />
+  <meta property="og:url"           content="http://www.jsie.in/impact" />
   <meta property="og:type"          content="website" />
-  <meta property="og:title"         content="About the Jindal Centre for Social Innovation + Entrepreneurship" />
-  <meta property="og:description"   content="An award winning social impact centre within OP Jindal Global University" />
+  <meta property="og:title"         content="Impact | JSiE" />
+  <meta property="og:description"   content="Jindal Centre for Social Innovation + Entrepreneurship at OP Jindal Global University" />
   <meta property="og:image"         content="http://www.jsie.in/assets/impact1-bef86849769a8abc77b09d57364608b2e861ede29e2feca2fe795faeb5ad1348.png" />
   <meta property="fb:app_id"        content="1535582636740127" />
   <% end %>
@@ -29,7 +29,7 @@
 				
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-							<h1>JSiE works to create real social impact by engaging with knowledge on social innovation and entrepreneurship to address some of the most pressing challenges facing humanity today.</h1>
+							<h1>JSiE works to make a measureable postitive impact on our collective capacity to address the most pressing challenges facing humanity today. </h1>
 						</div>
 					</div>
 			</section>
@@ -38,7 +38,7 @@
 					<div class="row">
 						<div class="col-sm-4">
 							<div class="feature">
-								<h5>Online Courses</h5>
+								<h5>Education for Sustainable Development</h5>
 								<p>
 									We offer transdisciplinary courses on social innovation and enterprise available to students across India certified by some of the top universities globally.
 								</p>
@@ -47,7 +47,7 @@
 					
 						<div class="col-sm-4">
 							<div class="feature">
-								<h5>Entrepreneurship</h5>
+								<h5>Advancing Entrepreneurship</h5>
 								<p>
 									We design social innovation challenges and provide start-up incubation services to support a rising generation of entrepreneurs in India.
 								</p>
@@ -56,7 +56,7 @@
 					
 						<div class="col-sm-4">
 							<div class="feature">
-								<h5>Research</h5>
+								<h5>Social Impact Knowledge</h5>
 								<p>
 									We engage in research that contributes to the social impact ecosystem. Our aim is to bring together academics and practitioners to disseminate knowledge and inspire practice.
 								</p>
@@ -65,6 +65,7 @@
 					</div>
 				</div>
 			</section>
+
 			<section class="strip bg-primary">
 				<div class="container">
 					<div class="row clearfix">
@@ -74,27 +75,65 @@
 					</div>
 				</div>
 			</section>
-			<section class="video-inline">
+			<section class="skill-bars">
+		
 				<div class="container">
 					<div class="row">
-						<div class="col-md-6 col-sm-12">
-							<h1 class="space-bottom-medium">Impact Investing: Profit and Purpose</h1>
-							<p class="lead space-bottom-medium">
-								Designed for upcoming entrepreneurs, this course explores the foundation of social enterprise and its relation to sustainable development by evaluating enterprise in the context of global and local problems. Co-created with Middlesex University Business School.
-							</p>
-							<a href="#" class="btn btn-primary btn-text-only">Learn More</a>
+						<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
 						</div>
-						
+					</div>
+					
+					<div class="row">
 						<div class="col-md-6 col-sm-12">
-							<div class="media-holder">
-								<iframe width="100%" height="315" src="http://www.youtube.com/embed/SZEflIVnhH8?showinfo=0&amp;rel=0&amp;modestbranding=1" frameborder="0" allowfullscreen="">
-								
-								</iframe>
+							<h1 class="space-bottom-medium">Partnership with Europe's leading online social learning platform, FutureLearn</h1>
+							<p class="lead space-bottom-medium">
+								FutureLearn partners with over a quarter of the world’s top universities and leaders in business and industry and has recently welcomed its nine millionth learner to its platform.
+							</p>
+							<%= link_to "JSiE Course List", "https://www.futurelearn.com/partners/jindal-centre", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
+							 <%= link_to "Course Stats", "https://docs.google.com/spreadsheets/d/1VN4dFXgk86yyrMg3ULM67X63ORFtvM6q59jOjlxIWEc/edit?usp=sharing", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
+						
+							</div>
+						<div class="col-md-6 col-sm-12">
+							<div class="skills-right skills">
+								<h3>JSiE's Online Course Stats</h3>
+								<ul class="skills-ul">
+									<li>
+										<span>175,574 Lessons Completed</span>
+										<div class="skill-bar-holder">
+											<div class="skill-capacity col-xs-11"></div>
+										</div>
+									</li>
+									
+									<li>
+										<span>31,695 Social Learning Comments</span>
+										<div class="skill-bar-holder">
+											<div class="skill-capacity col-xs-7"></div>
+										</div>
+									</li>
+									
+									<li>
+										<span>18,244 Active Learners</span>
+										<div class="skill-bar-holder">
+											<div class="skill-capacity col-xs-5"></div>
+										</div>
+									</li>
+									
+									<li>
+										<span>334 Certificates Awarded</span>
+										<div class="skill-bar-holder">
+											<div class="skill-capacity col-xs-1"></div>
+										</div>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
+					
+		
 				</div>
 			</section>
+		</div>
+			
 		</div>
 			<section class="video-inline">
 				<div class="container">
@@ -103,59 +142,18 @@
 						
 						<div class="col-md-6 col-sm-12">
 							<div class="media-holder">
-								<iframe width="100%" height="315" src="http://www.youtube.com/embed/SZEflIVnhH8?showinfo=0&amp;rel=0&amp;modestbranding=1" frameborder="0" allowfullscreen="">
+							<%= image_tag('futurelearn.jpg', alt: 'FutureLearn Social Enterprise Program') %>
 								
-								</iframe>
 							</div>
 						</div>
-						<h1 class="space-bottom-medium">Social Enterprise: Business Doing Good</h1>
+						<h1 class="space-bottom-medium">Peer-Reviewed Impact Evaluation</h1>
 							<p class="lead space-bottom-medium">
-								Designed for upcoming entrepreneurs, this course explores the foundation of social enterprise and its relation to sustainable development by evaluating enterprise in the context of global and local problems. Co-created with Middlesex University Business School.
+								Title: The use of MOOCs in social enterprise education: an evaluation of a North–South collaborative FutureLearn program
+								<br>
+								<br>
+								Publisher: Journal of Small Business & Entrepreneurship, 2018
 							</p>
-							<a href="#" class="btn btn-primary btn-text-only">Learn More</a>
-						</div>
-					</div>
-				</div>
-			</section>
-		<section class="video-inline">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-sm-12">
-							<h1 class="space-bottom-medium">Social Enterprise: Business Doing Good</h1>
-							<p class="lead space-bottom-medium">
-								Designed for upcoming entrepreneurs, this course explores the foundation of social enterprise and its relation to sustainable development by evaluating enterprise in the context of global and local problems. Co-created with Middlesex University Business School.
-							</p>
-							<a href="#" class="btn btn-primary btn-text-only">Learn More</a>
-						</div>
-						
-						<div class="col-md-6 col-sm-12">
-							<div class="media-holder">
-								<iframe width="100%" height="315" src="http://www.youtube.com/embed/SZEflIVnhH8?showinfo=0&amp;rel=0&amp;modestbranding=1" frameborder="0" allowfullscreen="">
-								
-								</iframe>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</div>
-			<section class="video-inline">
-				<div class="container">
-					<div class="row">
-
-						
-						<div class="col-md-6 col-sm-12">
-							<div class="media-holder">
-								<iframe width="100%" height="315" src="http://www.youtube.com/embed/SZEflIVnhH8?showinfo=0&amp;rel=0&amp;modestbranding=1" frameborder="0" allowfullscreen="">
-								
-								</iframe>
-							</div>
-						</div>
-						<h1 class="space-bottom-medium">Social Enterprise: Business Doing Good</h1>
-							<p class="lead space-bottom-medium">
-								Designed for upcoming entrepreneurs, this course explores the foundation of social enterprise and its relation to sustainable development by evaluating enterprise in the context of global and local problems. Co-created with Middlesex University Business School.
-							</p>
-							<a href="#" class="btn btn-primary btn-text-only">Learn More</a>
+							<%= link_to "Read the Publication", "https://drive.google.com/file/d/1gvQyRnWyd31aHwOCT3tIGKoAqKuMxqFt/view", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
 						</div>
 					</div>
 				</div>
@@ -175,16 +173,40 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-5">
-							<h1>Social Enterprise: Business Doing Good</h1>
+							<h1>Partnership with the Central Tibetan Administration since 2015</h1>
 							<p class="lead">
-								Designed for upcoming entrepreneurs, this course explores the foundation of social enterprise and its relation to sustainable development by evaluating enterprise in the context of global and local problems. Co-created by FutureLearn.
+								 The Tibetan Entrepreneurship Development, an initiative of the Central Tibetan Administration, aims to help orient Tibetan entrepreneurs and businesses towards becoming competitive, sustainable and impact-oriented.
 							</p>
-							<a class="store-link" href="#"><img alt="Buy On App Store" src="img/app-store.png"></a>
-							<a class="store-link" href="#"><img alt="Buy On App Store" src="img/google-play.png"></a>
+							<%= link_to "Read the Story", "https://yourstory.com/2019/06/jindal-social-innovation-tibetan-refugee-entrepreneur", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
+											<%= link_to "Our Program", "https://blog.jsie.in/tibetan-entrepreneurship-development-67124803e730", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
 						</div>
 					
 						<div class="col-sm-7" data-scroll-reveal="enter from bottom and move 100px">
-							<%= image_tag('back6.png', class: 'background-image', alt: 'JSiE') %>
+							<%= image_tag('tedi12.png', class: 'background-image', alt: 'JSiE') %>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="video-inline">
+				<div class="container">
+					<div class="row">
+
+						
+						<div class="col-md-6 col-sm-12">
+							<div class="media-holder">
+							<%= image_tag('futurelearn.jpg', alt: 'FutureLearn') %>
+								
+							</div>
+						</div>
+						<h1 class="space-bottom-medium">Peer-Reviewed Case Study</h1>
+							<p class="lead space-bottom-medium">
+								Title: Self-Regulated Learning in Refugee Entrepreneurship Education: A University-Based Program for Tibetan Entrepreneurs in India
+
+								<br>
+								<br>
+								Publisher: Diaspora, Indigenous, and Minority Education
+							</p>
+							<%= link_to "Read the Publication", "https://blog.jsie.in/tibetan-entrepreneurship-development-67124803e730", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
 						</div>
 					</div>
 				</div>
@@ -203,16 +225,16 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-5">
-							<h1>Social Enterprise: Business Doing Good</h1>
+							<h1>Research Insights with Impact</h1>
 							<p class="lead">
-								Designed for upcoming entrepreneurs, this course explores the foundation of social enterprise and its relation to sustainable development by evaluating enterprise in the context of global and local problems. Co-created by FutureLearn.
+								JSiE's research has been published in leading academic journals and magazines, including the Journal of Social Entrepreneurship and Stanford Social Innovation Review.  
 							</p>
-							<a class="store-link" href="#"><img alt="Buy On App Store" src="img/app-store.png"></a>
-							<a class="store-link" href="#"><img alt="Buy On App Store" src="img/google-play.png"></a>
+							<%= link_to "Our Research", "https://www.jsie.in/research", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
+							
 						</div>
 					
 						<div class="col-sm-7" data-scroll-reveal="enter from bottom and move 100px">
-							<%= image_tag('back6.png', class: 'background-image', alt: 'JSiE') %>
+							<%= image_tag('stanford.png', class: 'background-image', alt: 'JSiE') %>
 						</div>
 					</div>
 				</div>
@@ -227,25 +249,106 @@
 					</div>
 				</div>
 			</section>
-				<section class="feature-divider">					
+			<section class="video-inline">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-5">
-							<h1>Social Enterprise: Business Doing Good</h1>
-							<p class="lead">
-								Designed for upcoming entrepreneurs, this course explores the foundation of social enterprise and its relation to sustainable development by evaluating enterprise in the context of global and local problems. Co-created by FutureLearn.
-							</p>
-							<a class="store-link" href="#"><img alt="Buy On App Store" src="img/app-store.png"></a>
-							<a class="store-link" href="#"><img alt="Buy On App Store" src="img/google-play.png"></a>
+
+						
+						<div class="col-md-6 col-sm-12">
+							<div class="media-holder">
+								<iframe width="100%" height="315" src="https://www.youtube.com/embed/qNbRkjP8kog" frameborder="0" allowfullscreen="">
+								
+								</iframe>
+							</div>
 						</div>
-					
-						<div class="col-sm-7" data-scroll-reveal="enter from bottom and move 100px">
-							<%= image_tag('back6.png', class: 'background-image', alt: 'JSiE') %>
+						<h2>2018</h2>
+						<h1 class="space-bottom-medium">People, Power and Change: Executive Education Program</h1>
+							<p class="lead space-bottom-medium">
+								People, Power & Change is a 10-week journey with experienced grassroots coaches and mentors, learning new skills and concepts that will escalate your leadership as a change-maker.
+							</p>
 						</div>
 					</div>
 				</div>
 			</section>
+					<section class="video-inline">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-12">
+							<h2>2017</h2>
+							<h1>Sonipat Social Innovation Challenge</h1>
+							<p class="lead space-bottom-medium">
+								We brought together students from universities and colleges around Sonipat to brainstorm creative solutions to local community challenges.
+							</p>
+						</div>
+						
+						<div class="col-md-6 col-sm-12">
+							<div class="media-holder">
+								<iframe width="100%" height="315" src="https://www.youtube.com/embed/pJn0Lzwng4I" frameborder="0" allowfullscreen="">
+								
+								</iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+					<section class="video-inline">
+				<div class="container">
+					<div class="row">
 
+						
+						<div class="col-md-6 col-sm-12">
+							<div class="media-holder">
+								<iframe width="100%" height="315" src="https://www.youtube.com/embed/mTFPdNBnuts" frameborder="0" allowfullscreen="">
+								
+								</iframe>
+							</div>
+						</div>
+						<h2>2015</h2>
+						<h1 class="space-bottom-medium">International Social Innovation Challenge</h1>
+							<p class="lead space-bottom-medium">
+								The International Social Innovation Challenge was a “collab-etiton” bringing together top students from India, Pakistan and the United Kingdom to design solutions to the pressing global social challenge of empowering women through safer communities.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+	<section class="action-banner overlay"> 
+					<div class="background-image-holder parallax-background">
+						
+					</div>
+					
+					<div class="container">
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
+								<h1 class="text-white">An award-winning social impact centre <br> in North India</h1>
+							</div>
+						</div>
+<!-- Begin MailChimp Signup Form -->
+
+								<div class="col-md-6 centered">
+								<div class="photo-form-wrapper clearfix">
+								<form action="//jsie.us9.list-manage.com/subscribe/post?u=1d9cee480d11c55b46cafda06&amp;id=9dce774ba4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+								<input type="email" size="50" value="Enter your email" name="EMAIL" class="required email" id="mce-EMAIL" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">						
+									
+								<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div><div>
+								<div class="col-md-6 centered">
+								<input type="submit" value="Stay Updated" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-filled">	
+								</div>
+								</form>
+								</div>
+								<!--End mc_embed_signup-->
+								
+						
+						</div>
+						
+					</div>	
+			</section>
+		</div>
+		 <%= render 'layouts/footer' %>
+	    <script> mixpanel.track("impact");</script>			
+				
 
 
 
