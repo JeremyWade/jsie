@@ -39,4 +39,6 @@ class PagesController < ApplicationController
   end
   def lac
   end
+  def impinv
+  end
 end

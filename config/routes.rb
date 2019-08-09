@@ -21,6 +21,7 @@ Rails.application.routes.draw do
   get "impactislamabad" => "pages#impactislamabad"
   get "investmentforgood" => "pages#investmentforgood"
   get "impact" => "pages#impact"
+  get "learn/impinv" => "pages#impinv"
 
 
   # The priority is based upon order of creation: first created -> highest priority.
