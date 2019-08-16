@@ -1,37 +1,38 @@
 <%= render 'layouts/nav' %> 
 <% content_for :head do %>
-  <meta property="og:url"           content="http://www.jsie.in/impact" />
+  <meta property="og:url"           content="https://www.jsie.in/impact" />
   <meta property="og:type"          content="website" />
   <meta property="og:title"         content="Impact | JSiE" />
   <meta property="og:description"   content="Jindal Centre for Social Innovation + Entrepreneurship at OP Jindal Global University" />
   <meta property="og:image"         content="http://www.jsie.in/assets/impact1-bef86849769a8abc77b09d57364608b2e861ede29e2feca2fe795faeb5ad1348.png" />
   <meta property="fb:app_id"        content="1535582636740127" />
   <% end %>
-<div class="main-container">
-			<header class="title">
-					<div class="background-image-holder">
-						<%= image_tag('stat3.png', class: 'background-image', alt: 'JSiE') %>
-					</div>
-					
-					<div class="container align-bottom">
-						<div class="row">
-							<div class="col-xs-12">
-								<h1 class="text-white"></h1>
-								<span class="sub alt-font text-white"></span>
-								 <div class="spacer-75"></div>
-							</div>
-						</div>
-					</div>
-			</header>
-		</div>
+            <header class="page-header resume-header">
+                <div class="background-image-holder parallax-background">
+                    <%= image_tag('forest.jpg', class: 'background-image', alt: 'impact') %>
+                </div>
+            </header>
+        </div>
+             <div class="spacer-20"></div>
+                              <div class="spacer-20"></div>
+      <section class="strip bg-primary">
+        <div class="container">
+          <div class="row clearfix">
+            <div class="col-xs-12">
+              <h2 class="text-white"><strong>Impact at JSiE</strong></h2>
+            </div>
+          </div>
+        </div>
+      </section>
 		<section class="text-image-bottom bg-white">
 				<div class="container">
 				
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-							<h1>JSiE works to make a measurable positive impact on our collective capacity to address the most pressing challenges facing humanity today. </h1>
+							<h1>JSiE works to make a measurable positive impact on our collective capacity to address the most pressing challenges facing humanity. </h1>
 						</div>
 					</div>
+
 			</section>
 			<section class="duplicatable-content">
 				<div class="container">
@@ -96,7 +97,7 @@
 							</div>
 						<div class="col-md-6 col-sm-12">
 							<div class="skills-right skills">
-								<h3>JSiE's Online Course Stats</h3>
+								<h5>Online Course Stats</h5>
 								<ul class="skills-ul">
 									<li>
 										<span>175,574 Lessons Completed</span>
@@ -272,9 +273,9 @@
 						<h2>2018</h2>
 						<h1 class="space-bottom-medium">People, Power and Change: Executive Education Program</h1>
 							<p class="lead space-bottom-medium">
-								People, Power & Change is a 10-week journey with experienced grassroots coaches and mentors, learning new skills and concepts that will escalate your leadership as a change-maker.
+								People, Power & Change is a 10-week journey with experienced grassroots coaches and mentors, learning new skills and concepts that will escalate your leadership as a change-maker.</p>
 								<%= link_to "Read the Report", "https://drive.google.com/a/jsie.in/file/d/1c7ae4SgJf8JnmHH10vxmaCYuPoEHD1SQ/view?usp=sharing", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
-							</p>
+							
 						</div>
 					</div>
 				</div>

@@ -1,14 +1,40 @@
-<%= render 'layouts/nav' %>	
- <% content_for :head do %>
-  <meta property="og:url"           content="http://www.jsie.in/learn" />
+<% content_for :head do %>
+  <meta property="og:url"           content="https://www.jsie.in/learn" />
   <meta property="og:type"          content="website" />
   <meta property="og:title"         content="Digital Learning Lab" />
   <meta property="og:description"   content="Learn at the Jindal Centre for Social Innovation + Entrepreneurship at O.P. Jindal Global University" />
   <meta property="og:image"         content="http://www.jsie.in/assets/jsiedigital-ca3706cc3687e828164d60e931b212cb60a0708a9cd08c7c62c3e75e77d09cdb.png" />
   <meta property="fb:app_id"        content="1535582636740127" />
   <% end %>
-    <div class="spacer-90"></div>
-    <div class="spacer-100"></div>
+   <div class="loader">
+    		<div class="spinner">
+			  
+			</div>
+    	</div>
+   <%= render 'layouts/nav' %>	
+<div class="main-container">
+  <header class="hero-slider">
+				<ul class="slides">
+					<li class="overlay">
+						<div class="video-wrapper">
+						   
+							<%= video_tag "course1.mp4", controls: false, autoplay: true, muted: true, loop: true %>
+						</div>
+					
+						<div class="container align-vertical">
+							<div class="row">
+								<div class="col-md-6 col-sm-9">
+									<h1 class="text-white">FutureLearn Social Enterprise Program</h1>
+									 <%= link_to "Register Your Interest", "https://www.futurelearn.com/programs/social-enterprise", :class => "btn btn-primary btn-white btn-filled" %>
+								</div>
+							</div>
+						</div>
+					</li>
+					
+					
+				</ul>
+			</header>
+		</div>
    
 		<section class="product-right">
 			

@@ -1,13 +1,18 @@
-<%= render 'layouts/nav' %>	
- <% content_for :head do %>
-  <meta property="og:url"           content="http://www.jsie.in/" />
+<% content_for :head do %>
+  <meta property="og:url"           content="https://www.jsie.in/" />
   <meta property="og:type"          content="website" />
   <meta property="og:title"         content="An award-winning social impact centre in North India" />
   <meta property="og:description"   content="The Jindal Centre for Social Innovation + Entrepreneurship at O.P. Jindal Global University" />
   <meta property="og:image"         content="http://www.jsie.in/assets/impact1-bef86849769a8abc77b09d57364608b2e861ede29e2feca2fe795faeb5ad1348.png" />
   <meta property="fb:app_id"        content="1535582636740127" />
-  <% end %>		
-  <div class="main-container">
+  <% end %>
+  <div class="loader">
+    		<div class="spinner">
+			  
+			</div>
+    	</div>
+  <%= render 'layouts/nav' %>	
+  	<div class="main-container">	
 	<header class="title">
 					<div class="background-image-holder">
 						<%= image_tag('impactabstract.jpg', class: 'background-image', alt: 'JSiE') %>
@@ -24,6 +29,7 @@
 					</div>
 			</header>
 		</div>
+
 			<section class="action-banner overlay">
 				<div class="background-image-holder">
 				</div>
@@ -168,9 +174,6 @@
 							<div class="hover-state">
 								<div class="align-vertical">
 									<h1 class="text-white home-header">Supporting <strong>Tibetan Entrepreneurship </strong> Across India</h1>
-									<p class="text-white text-home">
-											Tibetan entrepreneurs can create significant economic and social impact in their communities. Supporting them helps create an economically self-reliant Tibetan community in India, and in turn, helps preserve the unique and compassion-based Tibetan cultural heritage
-									</p>
 									<%= link_to "Read the Story", "https://yourstory.com/2019/06/jindal-social-innovation-tibetan-refugee-entrepreneur", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
 											<%= link_to "Our Program", "https://blog.jsie.in/tibetan-entrepreneurship-development-67124803e730", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
 								</div>
@@ -184,9 +187,6 @@
 							<div class="hover-state">
 								<div class="align-vertical">
 									<h1 class="text-white home-header">Massive Open Online Course <br> Impact Investing: Profit and Purpose </h1>
-									<p class="text-white text-home">
-										Learn about impact investing, and how the power of finance can generate financial returns and tackle today's global challenges.
-									</p>
 									<%= link_to "Join the Course", "https://www.futurelearn.com/courses/impact-investing", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
 								</div>
 							</div>
@@ -199,8 +199,6 @@
 							<div class="hover-state">
 								<div class="align-vertical">
 									<h1 class="text-white home-header">Leadership, Action and Change:<br> Executive Education Program</h1>
-									<p class="text-white text-home">
-										Leadership, Action and Change is a 4-month executive education program on community organizing with experienced grassroots coaches and mentors.									</p>
 									<%= link_to "Apply Now", "https://docs.google.com/forms/d/e/1FAIpQLScXbR-3SgAcvWAXlJUqOQO0TRNz4-uZiv_DkIV-rUKLxNJ5TA/viewform?usp=sf_link", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
 										<%= link_to "Learn More", "http://www.jsie.in/learn/lac", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
 								</div>
@@ -215,9 +213,6 @@
 							<div class="hover-state">
 								<div class="align-vertical">
 									<h1 class="text-white home-header">Activist to Entrepreneur:<br> Role of social enterprise in supporting women’s empowerment</h1>
-									<p class="text-white text-home">
-										This research looks at mutually reinforcing linkage between women’s empowerment and social enterprise across five countries: the UK, the United States, Brazil, India, and Pakistan.
-									</p>
 									<%= link_to "Read the Research Publication", "https://www.britishcouncil.org/sites/default/files/social_enterprise_and_womens_empowerment_july.pdf", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
 								</div>
 							</div>
@@ -230,9 +225,6 @@
 							<div class="hover-state">
 								<div class="align-vertical">
 									<h1 class="text-white home-header"><strong>Massive Open Online Course <br> <strong>FutureLearn Social Enterprise Program</strong></h1>
-									<p class="text-white text-home">
-										Join thousands of people learning together at FutureLearn's social enterprise program. High quality online education, co-created by JSiE and Middlesex University Business School. Try it for free.
-									</p>
 									<%= link_to "Earn a Certificate", "https://www.futurelearn.com/programs/social-enterprise", :class => "btn-xs btn-primary btn-filled", :target => "_blank" %>
 								</div>
 							</div>
@@ -255,7 +247,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
-								<h1 class="text-white">An award-winning social impact centre <br> in North India</h1>
+								<h1 class="text-white">An award-winning social impact centre <br> in India</h1>
 							</div>
 						</div>
 <!-- Begin MailChimp Signup Form -->
