@@ -575,5 +575,41 @@ body{
   background: #f2f2f2;
   font-family: 'Open Sans', sans-serif;
 }
-
-
+.hero-slider1 {
+  padding: 0px;
+  position: relative;
+}
+.hero-slider1 .slides li {
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+.hero-slider1 .slides li h1 {
+  font-size: 38px;
+  line-height: 56px;
+  margin-bottom: 40px;
+}
+.hero-slider1 .slides li .btn {
+  margin-right: 16px;
+}
+.hero-slider1 .flex-direction-nav a {
+  color: rgba(0, 0, 0, 0);
+}
+.hero-slider1 .slides li.overlay:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  content: '';
+  opacity: 0.8;
+  z-index: 2;
+  background-color: #000;
+ 
+}
+ .hero-slider1 .slides li h1,
+  header.title h1,
+  .action-banner h1,
+  header.signup h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
