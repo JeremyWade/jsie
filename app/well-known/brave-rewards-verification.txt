@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: jsie.in
+Token: abe16180a91de999abdf4dcde72a456f5ef2417689a2be81499b8cac10b004b5
