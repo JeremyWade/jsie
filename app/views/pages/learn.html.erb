@@ -13,28 +13,21 @@
     	</div>
    <%= render 'layouts/nav' %>	
 <div class="main-container">
-  <header class="hero-slider1">
-				<ul class="slides">
-					<li class="overlay">
-						<div class="video-wrapper">
-						   
-							<%= video_tag "gsgtrailer.mp4", controls: false, autoplay: true, muted: true, loop: true %>
-						</div>
-					
-						<div class="container align-vertical">
-							<div class="row">
-								<div class="col-md-6 col-sm-9">
-									<h1 class="text-white">Learn about impact investing from the industry leaders and pioneers<h1>
+	  	<div class="main-container">
+  		 <header class="page-header">
+                <div class="background-image-holder parallax-background">
+                    <%= image_tag('greenbuilding.jpg', class: 'background-image', alt: 'JSiE') %>
+                </div>
+                <div class="container">
+                    <div class="row">
+                       <div class="col-md-12 text-center">
+									<h2 class="text-white">Learn from the industry leaders and pioneers<h2>
 									 <%= link_to "Join the Course", "https://www.futurelearn.com/courses/impact-investing", :class => "btn btn-primary btn-white btn-filled" %>
 								</div>
-							</div>
-						</div>
-					</li>
-					
-					
-				</ul>
-			</header>
-		</div>
+                    
+                    </div>
+                </div>
+            </header>
    
 		<section class="product-right">
 			
