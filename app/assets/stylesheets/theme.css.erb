@@ -174,7 +174,7 @@ h3 {
 }
 h4 {
   font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+  font-size: 45px;
   line-height: 48px;
   margin-bottom: 20px;
   font-weight: 300;
@@ -390,6 +390,10 @@ section:nth-of-type(even) {
 }
 .btn-primary.btn-filled2 {
   background: #317b9d;
+  color: #fff;
+}
+.btn-primary.btn-filled3 {
+  background: #2a3d51;
   color: #fff;
 }
 .btn-primary.btn-filled:hover {
@@ -816,7 +820,6 @@ nav hr {
   content: '';
   opacity: 0.9;
   z-index: 2;
-  background-color: #317b9d;
   left: 0;
 }
 .overlay1:before {
@@ -828,6 +831,18 @@ nav hr {
   z-index: 2;
   background-color: #293d51;
   left: 0;
+}
+.overlay2:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  content: '';
+  opacity: 0.9;
+  z-index: 2;
+  left: 0;
+background: radial-gradient(100% 225% at 100% 0%, #FF0000 0%, #000000 100%), linear-gradient(236deg, #00C2FF 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 0%, #CDFFEB 36%, #009F9D 36%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%);
+background-blend-mode: overlay, hard-light, normal;
 }
 .overlay .container {
   position: relative;
@@ -864,7 +879,8 @@ header .btn:last-child {
 }
 .page-header h1 {
   font-family: 'Roboto Mono', sans-serif;
-  font-size: 40px;
+  font-size: 45px;
+  line-height: 50px;
   margin-bottom: 24px;
 }
 .page-header p.lead {
@@ -878,7 +894,6 @@ header .btn:last-child {
   content: '';
   opacity: 0;
   z-index: 2;
-  background-color: #333333;
 }
 .page-header .background-image-holder {
   height: 150%;
@@ -894,6 +909,7 @@ header .btn:last-child {
 .page-header1 h1 {
   font-family: 'Roboto Mono', sans-serif;
   font-size: 40px;
+  line-height: 40px;
   margin-bottom: 24px;
 }
 .page-header1 p.lead {
@@ -921,6 +937,8 @@ header .btn:last-child {
   height: 400px;
   overflow: hidden;
   position: relative;
+background: linear-gradient(129.96deg, #FF2F2F 10.43%, #000460 92.78%), radial-gradient(100% 246.94% at 100% 0%, #FFFFFF 0%, #020063 100%), linear-gradient(121.18deg, #1400FF 0.45%, #3A0000 100%), linear-gradient(154.03deg, #FF002E 0%, #FF003D 74.04%), linear-gradient(341.1deg, #B25BBA 7.52%, #1700A7 77.98%), linear-gradient(222.34deg, #0047FF 12.99%, #FF0000 87.21%), linear-gradient(150.76deg, #B7D500 15.35%, #2200AA 89.57%);
+background-blend-mode: overlay, color-burn, screen, overlay, difference, difference, normal;
 }
 .hero-slider .slides li h1 {
   font-size: 38px;
@@ -952,9 +970,9 @@ header .btn:last-child {
   height: 100%;
   top: 0px;
   content: '';
-  opacity: 0.3;
   z-index: 2;
-  background-color: #fa7d00;
+  ackground: linear-gradient(235deg, #BABC4A 0%, #000000 100%), linear-gradient(235deg, #0026AC 0%, #282534 100%), linear-gradient(235deg, #00FFD1 0%, #000000 100%), radial-gradient(120% 185% at 25% -25%, #EEEEEE 0%, #EEEEEE 40%, #7971EA calc(40% + 1px), #7971EA 50%, #393E46 calc(50% + 1px), #393E46 70%, #222831 calc(70% + 1px), #222831 100%), radial-gradient(70% 140% at 90% 10%, #F5F5C6 0%, #F5F5C6 30%, #7DA87B calc(30% + 1px), #7DA87B 60%, #326765 calc(60% + 1px), #326765 80%, #27253D calc(80% + 1px), #27253D 100%);
+background-blend-mode: overlay, lighten, overlay, color-burn, normal;
 }
 .header-icons1 {
   padding: 180px 0px;

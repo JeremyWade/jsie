@@ -13,18 +13,36 @@
     	</div>
   <%= render 'layouts/nav' %>	
   	<div class="main-container">
+  		 <header class="page-header">
+                <div class="background-image-holder parallax-background">
+                    <%= image_tag('ptable.jpg', class: 'background-image', alt: 'JSiE') %>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-3">
+                        </div>
+                        <div class="col-md-4 ">
+							<h1>Who says we can't build a sustainable future?</h1>
+                            <p>Learn how to be a leader in sustainability, in business, government, civil society, or finance and make a real difference in your community</p>
+                              <div class="spacer-20"></div>
+                            <%= link_to "Start Learning Today", "https://www.jsie.in/learn", :class => "btn btn-primary btn-white btn-filled" %>
+                            
+                        </div>
+                    
+                    </div>
+                </div>
+            </header>
   	<section class="hero-slider">
 				<ul class="slides">
 					<li class="overlay">
-						<div class="background-image-holder">
-							<%= image_tag('eds2.jpg', class: 'background-image', alt: 'Tibetan') %>
-						</div>
-						
 						<div class="container align-vertical">
 							<div class="row">
 								<div class="col-md-6 col-sm-9">
-									<h1 class="text-white">Join the digital revolution <br> for sustainable development</h1>
-									<a href="http://www.jsie.in/learn" class="btn btn-primary btn-filled2">Learn More</a>
+									<h4 class="text-white">Sustainable Future.</h4>
+								</div>
+								<div class="col-md-6 col-sm-3">
+									<h4 class="text-white">Work Redefined.</h4>
 								</div>
 							</div>
 						</div>
@@ -34,26 +52,16 @@
 				</ul>
 			</section>	
 
-			<section class="action-banner overlay">
+			<section class="action-banner">
 				<div class="background-image-holder">
 				</div>
 				
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 text-center">
-							<h2 class="text-white">Accelerating knowledge on social impact and entrepreneurship in India</h2>
+							<h2>Jindal Centre for Social Innovation + Entrepreneurship </h2>
 							<div class="col-xs-12">
-							<ul class="social-iconsH">
-								<li>
-								<%= link_to "<i class=\"iicon social_facebook\"></i>".html_safe, "https://www.facebook.com/JSiEin/", :target => "_blank"-%>
-							    </li>
-								<li>
-								<%= link_to "<i class=\"iicon social_twitter\"></i>".html_safe, "https://twitter.com/jsiein", :target => "_blank"-%>
-								</li>
-									<li>
-								<%= link_to "<i class=\"iicon social_instagram\"></i>".html_safe, "https://www.instagram.com/jsiein/", :target => "_blank" -%>
-									</li>
-							</ul>
+								<a href="http://www.jsie.in/learn" class="btn btn-primary btn-filled2">Learn More</a>
 						</div>
 						</div>
 					</div>
@@ -244,7 +252,7 @@
 		</div>
 		</div>	
 		</div>
-					<section class="action-banner overlay"> 
+					<section class="action-banner overlay2"> 
 					<div class="background-image-holder parallax-background">
 						
 					</div>
