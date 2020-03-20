@@ -22,6 +22,9 @@ Rails.application.routes.draw do
   get "investmentforgood" => "pages#investmentforgood"
   get "impact" => "pages#impact"
   get "learn/impinv" => "pages#impinv"
+  get "payment" => "pages#payment"
+  get "payment/success" => "pages#success"
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.

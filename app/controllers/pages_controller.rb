@@ -41,4 +41,6 @@ class PagesController < ApplicationController
   end
   def impinv
   end
+  def payment
+  end
 end
