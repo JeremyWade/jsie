@@ -31,6 +31,59 @@
         
                 </div>
             </section>
+ 
+
+<div id="app">
+            <h1>Menu Items</h1>
+            <ul>
+                <li v-for="item in items">
+                    <h3>{{ item['fields']['Item'] }}</h3>
+                    <p>{{ item['fields']['Description'] }}</p>
+                    <p><strong>Price: </strong>${{ item['fields']['Price'] }}</p>
+                    <p><strong>Category: </strong>{{ item['fields']['Category'] }}</p>
+                    <img :src="item['fields']['Photo'][0]['thumbnails']['large']['url']" alt="" v-if="item['fields']['Photo']" width="150">
+                </li>
+            </ul>            
+        </div><!--app-->
+
+        <script type="text/javascript">
+            var app = new Vue({
+                el: '#app',
+                data: {
+                    items: []
+                },
+                mounted: function(){
+                   this.loadItems(); 
+                },
+                methods: {
+                    loadItems: function(){
+                        
+                        // Init variables
+                        var self = this
+                        var app_id = "replaceME";
+                        var app_key = "replaceME";
+                        this.items = []
+axios.get(
+                            "https://api.airtable.com/v0/"+app_id+"/Menu?view=Grid%20view",
+                            { 
+                                headers: { Authorization: "Bearer "+app_key } 
+                            }
+                        ).then(function(response){
+                            self.items = response.data.records
+                        }).catch(function(error){
+                            console.log(error)
+                        })
+                    }
+                }
+            })
+        </script>
+
+
+
+<script type="text/javascript" src="https://unpkg.com/vue"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/vue"></script>
+</body>
     <!-- Load Stripe.js on your website. -->
 <script src="https://js.stripe.com/v3"></script>
 

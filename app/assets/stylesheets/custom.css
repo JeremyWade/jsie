@@ -616,3 +616,34 @@ body{
 .linear-gradient { 
     background: linear-gradient(60deg, #2B2E4A 0%, #2B2E4A 30%, #E84545 calc(30% + 1px), #E84545 60%, #903749 calc(60% + 1px), #903749 70%, #53354A calc(70% + 1px), #53354A 100%);
 }
+header.signup1 {
+  padding: 30px 0px;
+  position: relative;
+  overflow: hidden;
+  height: auto;
+}
+header.signup1 h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
+header.signup1 .photo-form-wrapper {
+  margin-bottom: 0px;
+}
+header.signup1 .photo-form-wrapper .btn {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border-radius: 50px;
+  max-width: 250px;
+  height: 52px;
+}
+header.signup1:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  content: '';
+  z-index: 2;
+  background-color: #293d51;
+}
