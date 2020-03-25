@@ -3913,27 +3913,33 @@ footer.short-2 .contact-action:hover {
   margin: 32px 0px;
   position: relative;
   z-index: 1;
+
 }
 .article-body iframe {
   width: 100%;
-  height: 440px;
+  height: 100%;
 }
 .media-holder:before {
   content: '';
-  position: absolute;
-  width: 100%;
-  height: 80%;
+  width: 560px;
+  height: 100%;
   top: 0px;
   z-index: 2;
 }
 @media screen and (max-width: 767px) {
   .article-body iframe {
-    height: 215px;
+    width: 360px;
+    height: 100%;
+    top: 0px;
+    z-index: 2;
   }
 }
 @media screen and (max-width: 990px) {
   .media-holder {
-    margin-top: 32px;
+    width: 360px;
+    height: 100%;
+    top: 0px;
+    z-index: 2;
   }
 }
 .comment-list {
