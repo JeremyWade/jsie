@@ -25,5 +25,6 @@ module Jsie
     config.assets.paths << Rails.root.join("app", "assets", "fonts")
     config.assets.paths << Rails.root.join("app", "assets", "videos")
     config.assets.initialize_on_precompile = false
+    config.force_ssl = true
   end
 end
